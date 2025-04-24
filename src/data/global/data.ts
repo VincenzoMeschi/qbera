@@ -46,7 +46,7 @@ export const footerData: FooterProps = {
 			contactInfo: {
 				phone: {
 					icon: Phone,
-					phoneNumber: "(999)999-9999",
+					phoneNumber: "(630)290-1120",
 				},
 				email: {
 					icon: Email,
@@ -54,7 +54,8 @@ export const footerData: FooterProps = {
 				},
 				address: {
 					icon: LocationCity,
-					physicalAddress: "1566 E Trade St. Aurora, IL 60564",
+					physicalAddress:
+						"551 Roosevelt Rd Unit #214, Glen Ellyn, IL 60137",
 				},
 			},
 		},
