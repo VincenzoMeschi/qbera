@@ -25,7 +25,7 @@ export const LowImpactHeader: React.FC<LowImpactHeaderProps> = (props) => {
 						style={{ clipPath: "inset(0)" }}></div>
 					<MainGrid className="h-full z-0 items-end">
 						<div className="flex col-span-full lg:col-span-6 lg:items-center items-end z-10 row-end-1 pb-4">
-							<h1 className="text-primary text-8xl sm:text-9xl uppercase pb-12 sm:pb-0">
+							<h1 className="text-primary text-8xl sm:text-9xl uppercase pb-6 sm:pb-0">
 								{mainHeading}
 							</h1>
 						</div>

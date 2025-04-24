@@ -26,7 +26,7 @@ export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 								</p>
 							</div>
 						</div>
-						<div className="col-span-4 sm:col-span-6 lg:col-span-4 flex py-16">
+						<div className="col-span-4 sm:col-span-6 lg:col-span-4 flex sm:py-16">
 							<div className="w-1/2 flex flex-col">
 								<h6 className="text-secondary pb-6 uppercase">
 									{secondThird.firstLabel}
@@ -98,7 +98,7 @@ export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 							</div>
 						</div>
 						<div className="col-span-4 sm:col-span-6 lg:col-span-4 py-16">
-							<div className="flex flex-col pl-20">
+							<div className="flex flex-col sm:pl-20">
 								<h6 className="text-secondary pb-6 uppercase">
 									{thirdThird.label}
 								</h6>
