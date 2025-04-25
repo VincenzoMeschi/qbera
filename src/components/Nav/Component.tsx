@@ -51,10 +51,10 @@ export const Nav: React.FC = () => {
 			{/* sliding panel */}
 			<div
 				className={`
-          fixed top-0 right-0 h-full w-3/4 max-w-xs bg-white shadow-lg
+          !fixed top-0 right-0 h-full w-3/4 max-w-xs bg-white shadow-lg
           transform transition-transform duration-300 ease-in-out
           ${mobileOpen ? "translate-x-0" : "translate-x-full"}
-          sm:hidden z-99
+          sm:hidden !z-99
         `}>
 				{/* close button */}
 				<div className="flex justify-end p-4">

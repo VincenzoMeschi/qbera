@@ -65,7 +65,7 @@ export const HighImpactHeader: React.FC<HighImpactHeaderProps> = ({
 						<div className="lg:col-start-7 sm:col-start-2 col-start-1 col-span-full lg:col-span-6 flex items-start justify-center row-end-1 z-0">
 							<div className="z-1 absolute h-full w-full bg-gradient-to-t from-black to-transparent opacity-55"></div>
 							<Image
-								className="h-[150%] w-auto object-cover -mt-30 z-0 overflow-visible"
+								className="h-[150%] w-auto object-cover -mt-30 z-0 !overflow-visible"
 								src={imageSettings.image}
 								alt={imageSettings.alt}
 								style={{
