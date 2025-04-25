@@ -10,7 +10,7 @@ import { LocationSection } from "@/sections/LocationSection/Component";
 
 export default function Locations() {
 	return (
-		<div className="flex flex-col gap-24 overflow-x-hidden">
+		<div className="flex flex-col gap-24 overflow-hidden">
 			<LowImpactHeader {...heroData}></LowImpactHeader>
 			<LocationSection {...locationData} />
 			<LogoSlider {...logoSliderData} />

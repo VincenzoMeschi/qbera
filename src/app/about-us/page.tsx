@@ -18,7 +18,7 @@ import { CTASection } from "@/sections/CTASection/Component";
 
 export default function About() {
 	return (
-		<div className="flex flex-col gap-24 overflow-x-hidden">
+		<div className="flex flex-col gap-24 overflow-hidden">
 			<LowImpactHeader {...heroData}></LowImpactHeader>
 			<AboutUs {...aboutUsData} />
 			<LogoSlider {...logoSliderData} />

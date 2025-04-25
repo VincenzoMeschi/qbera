@@ -15,7 +15,7 @@ import { footerData } from "@/data/global/data";
 
 export default function Home() {
 	return (
-		<div className="flex flex-col gap-24 overflow-x-hidden">
+		<div className="flex flex-col gap-24 overflow-hidden">
 			<HighImpactHeader {...heroData}></HighImpactHeader>
 			<AboutUs {...aboutUsData} />
 			<LogoSlider {...logoSliderData} />
