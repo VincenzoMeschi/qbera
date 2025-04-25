@@ -15,7 +15,7 @@ export const CTASection: React.FC<CTASectionProps> = ({
 	return (
 		<div className="w-full h-full">
 			<MainGrid>
-				<div className="col-span-4 flex items-start lg:items-end w-full sm:col-span-6 lg:col-span-12 rounded-[2.5rem] rounded-br-none overflow-hidden bg-foreground h-96 z-10 relative">
+				<div className="col-span-4 flex items-start lg:items-end w-full sm:col-span-6 lg:col-span-12 rounded-[2.5rem] rounded-br-none overflow-hidden bg-foreground h-96 z-1 relative">
 					<button className="flex text-primary items-center cursor-pointer text-2xl uppercase gap-4 absolute z-30 left-14 sm:right-10 sm:left-auto bottom-4 group">
 						<div className="bg-foreground group-hover:bg-card transition-colors duration-300 flex items-center justify-cente rounded-lg py-2 px-3">
 							<div className="transform group-hover:rotate-45 transition-all duration-300 text-accent-foreground group-hover:text-foreground">

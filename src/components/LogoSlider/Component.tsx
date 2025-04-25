@@ -12,7 +12,7 @@ export const LogoSlider: React.FC<LogoSliderProps> = ({ logos }) => {
 	return (
 		<div className="w-full h-full">
 			<MainGrid>
-				<div className="col-span-4 sm:col-span-6 lg:col-span-12">
+				<div className="col-span-4 sm:col-span-6 lg:col-span-12 z-1">
 					<Slider
 						width="275px"
 						duration={30}

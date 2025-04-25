@@ -22,7 +22,7 @@ export const TestimonialSection: React.FC<TestimonialSectionProps> = ({
 				{testimonials.map((testimonial, i) => {
 					return (
 						<TestimonialCard
-							className="col-span-4 sm:col-span-6 lg:col-span-4"
+							className="col-span-4 sm:col-span-6 lg:col-span-4 z-1"
 							key={i}
 							{...testimonial}
 						/>

@@ -30,7 +30,7 @@ export const TrainingCard: React.FC<TrainingCardProps> = ({
 				<h2 className="text-6xl uppercase">{content.mainHeading}</h2>
 				<h6 className="text-2xl italic">{content.subHeading}</h6>
 				<p>{content.description}</p>
-				<button className="flex text-primary items-center cursor-pointer text-xl uppercase gap-4 group z-10">
+				<button className="flex text-primary items-center cursor-pointer text-xl uppercase gap-4 group z-2">
 					<div className="bg-foreground group-hover:bg-card transition-colors duration-300 flex items-center justify-cente rounded-lg py-1 px-1.5">
 						<div className="transform group-hover:rotate-45 transition-all duration-300 text-primary-foreground group-hover:text-primary">
 							<content.ctaButton.icon className="scale-100" />

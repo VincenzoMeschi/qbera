@@ -23,10 +23,10 @@ export const LocationSection: React.FC<LocationSectionProps> = ({
 						<div
 							className="col-span-4 sm:col-span-6 lg:col-span-12 flex items-end justify-between rounded-[2.5rem] h-80 p-6 relative overflow-hidden"
 							key={i}>
-							<h3 className="text-5xl uppercase text-primary-foreground z-10">
+							<h3 className="text-5xl uppercase text-primary-foreground z-3">
 								{location.mainHeading}
 							</h3>
-							<button className="flex text-primary-foreground items-center cursor-pointer text-xl uppercase gap-4 group z-10">
+							<button className="flex text-primary-foreground items-center cursor-pointer text-xl uppercase gap-4 group z-3">
 								<div className="bg-background group-hover:bg-card transition-colors duration-300 flex items-center justify-cente rounded-lg py-1 px-1.5">
 									<div className="transform group-hover:rotate-45 transition-all duration-300 text-primary group-hover:text-foreground">
 										<location.ctaButton.icon className="scale-100" />
