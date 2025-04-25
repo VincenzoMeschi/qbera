@@ -56,8 +56,8 @@ export const HighImpactHeader: React.FC<HighImpactHeaderProps> = ({
 					<div
 						className="absolute w-10 h-10 right-0 bottom-32 sm:left-[24rem] sm:bottom-0 bg-transparent shadow-[0_0_0_1rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-br-[2.5rem] sm:rounded-bl-[2.5rem] sm:rounded-br-none z-10"
 						style={{ clipPath: "inset(0)" }}></div>
-					<MainGrid className="h-full z-0">
-						<div className="flex col-span-full lg:col-span-6 lg:items-center items-end z-10 row-end-1">
+					<MainGrid className="h-full z-0 px-0">
+						<div className="flex col-span-full lg:col-span-6 lg:items-center items-end px-8 z-10 row-end-1">
 							<h1 className="text-primary-foreground text-8xl xl:text-9xl uppercase text-shadow-lg pb-36 lg:pb-0">
 								{mainHeading}
 							</h1>
