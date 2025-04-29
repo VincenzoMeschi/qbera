@@ -31,7 +31,7 @@ export const RightColumnAbout: React.FC<RightColumnAboutProps> = (props) => {
 				/>
 			</div>
 			<div className=" w-full lg:h-3/5 rounded-[2.5rem] rounded-br-none overflow-hidden relative">
-				<div className="flex flex-col absolute top-5 right-5 w-50">
+				<div className="flex flex-col absolute top-5 right-0 left-5 sm:right-5 w-50">
 					<h3 className="text-secondary text-4xl uppercase leading-relaxed">
 						{bottom.mainHeading}
 					</h3>
@@ -49,11 +49,11 @@ export const RightColumnAbout: React.FC<RightColumnAboutProps> = (props) => {
 				<div className="LAYERMASK">
 					<div className="w-30 h-30 bg-secondary absolute bottom-0 right-0 rounded-tl-[2.5rem] z-1" />
 					<div
-						className="absolute w-10 h-10 right-30 bottom-0 bg-transparent shadow-[0_0_0_1rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-br-[2.5rem] z-10"
+						className="absolute w-10 h-10 right-30 bottom-0 bg-transparent shadow-[0_0_0_10rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-br-[2.5rem] z-10"
 						style={{ clipPath: "inset(0)" }}
 					/>
 					<div
-						className="absolute w-10 h-10 right-0 bottom-30 bg-transparent shadow-[0_0_0_1rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-br-[2.5rem] z-10"
+						className="absolute w-10 h-10 right-0 bottom-30 bg-transparent shadow-[0_0_0_10rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-br-[2.5rem] z-10"
 						style={{ clipPath: "inset(0)" }}
 					/>
 				</div>

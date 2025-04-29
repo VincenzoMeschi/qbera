@@ -23,24 +23,24 @@ export const AboutUs: React.FC<AboutUsProps> = ({
 					<div className="col-span-4 sm:col-span-6 lg:col-span-8">
 						<div className="rounded-t-[2.5rem] lg:rounded-br-[2.5rem] overflow-hidden relative">
 							<div className="LAYERMASK">
-								<div className="w-full sm:w-80 lg:w-96 h-38 bg-secondary absolute bottom-0 left-0 sm:rounded-tr-[2.5rem] z-1" />
+								<div className="w-full h-48 sm:w-80 lg:w-96 sm:h-38 bg-secondary absolute bottom-0 left-0 sm:rounded-tr-[2.5rem] z-1" />
 
 								<div className="w-full lg:w-42 h-20 bg-secondary absolute bottom-0 left-80 lg:left-96 lg:rounded-tr-[2.5rem] z-1" />
 								<div
-									className="absolute w-10 h-10 left-80 lg:left-96 bottom-20 bg-transparent shadow-[0_0_0_1rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-bl-[2.5rem] z-1 hidden sm:block"
+									className="absolute w-10 h-10 left-80 lg:left-96 bottom-20 bg-transparent shadow-[0_0_0_10rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-bl-[2.5rem] z-1 hidden sm:block"
 									style={{ clipPath: "inset(0)" }}
 								/>
 								<div
-									className="absolute w-10 h-10 left-0 bottom-38 bg-transparent shadow-[0_0_0_1rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-bl-[2.5rem] z-1"
+									className="absolute w-10 h-10 left-0 bottom-48 sm:bottom-38 bg-transparent shadow-[0_0_0_10rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-bl-[2.5rem] z-1"
 									style={{ clipPath: "inset(0)" }}
 								/>
 								<div
-									className="absolute w-10 h-10 bottom-38 right-0 sm:bottom-20 lg:left-[34.5rem] lg:bottom-0 bg-transparent shadow-[0_0_0_1rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-bl-[2.5rem] z-1 scale-x-[-1] lg:scale-x-[1]"
+									className="absolute w-10 h-10 bottom-48 right-0 sm:bottom-20 lg:left-[34.5rem] lg:bottom-0 bg-transparent shadow-[0_0_0_10rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-bl-[2.5rem] z-1 scale-x-[-1] lg:scale-x-[1]"
 									style={{ clipPath: "inset(0)" }}
 								/>
 							</div>
 
-							<div className="absolute bottom-20 lg:bottom-18 left-0 z-1">
+							<div className="absolute bottom-28 lg:bottom-18 left-0 z-1">
 								<h2 className="uppercase text-primary text-5xl lg:text-7xl pb-3 sm:pb-0">
 									{leftSide.mainHeading}
 								</h2>

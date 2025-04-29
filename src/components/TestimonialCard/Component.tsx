@@ -26,11 +26,11 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = (props) => {
 					<div className="relative">
 						<div className="w-17 h-17 absolute top-0 right-0 bg-card rounded-bl-[2.5rem]" />
 						<div
-							className="absolute w-8 h-8 top-0 right-17 bg-transparent shadow-[0_0_0_1rem_#FFF,0_0_0_0_#FFF] rounded-tr-[2.5rem] z-10"
+							className="absolute w-8 h-8 top-0 right-17 bg-transparent shadow-[0_0_0_10rem_#FFF,0_0_0_0_#FFF] rounded-tr-[2.5rem] z-10"
 							style={{ clipPath: "inset(0)" }}
 						/>
 						<div
-							className="absolute w-8 h-8 top-17 right-0 bg-transparent shadow-[0_0_0_1rem_#FFF,0_0_0_0_#FFF] rounded-tr-[2.5rem] z-10"
+							className="absolute w-8 h-8 top-17 right-0 bg-transparent shadow-[0_0_0_10rem_#FFF,0_0_0_0_#FFF] rounded-tr-[2.5rem] z-10"
 							style={{ clipPath: "inset(0)" }}
 						/>
 						<div className="w-14 h-14 flex items-center justify-center bg-background absolute top-0 right-0 z-10 rounded-[1.5rem]">

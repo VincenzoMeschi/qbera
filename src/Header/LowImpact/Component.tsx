@@ -18,14 +18,14 @@ export const LowImpactHeader: React.FC<LowImpactHeaderProps> = (props) => {
 					<Nav />
 					<div className="absolute bottom-0 left-0 bg-background flex pl-16  w-full md:w-[37rem] xl:w-1/2 h-44 md:rounded-tr-[2.5rem] z-10" />
 					<div
-						className="absolute w-10 h-10 left-0 bottom-44 bg-transparent shadow-[0_0_0_1rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-bl-[2.5rem] z-10 "
+						className="absolute w-10 h-10 left-0 bottom-44 bg-transparent shadow-[0_0_0_10rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-bl-[2.5rem] z-10 "
 						style={{ clipPath: "inset(0)" }}></div>
 					<div
-						className="absolute w-10 h-10 bottom-44 right-0 md:left-[37rem] xl:left-1/2 md:bottom-0 bg-transparent shadow-[0_0_0_1rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-br-[2.5rem] md:rounded-bl-[2.5rem] md:rounded-br-none z-10"
+						className="absolute w-10 h-10 bottom-44 right-0 md:left-[37rem] xl:left-1/2 md:bottom-0 bg-transparent shadow-[0_0_0_10rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-br-[2.5rem] md:rounded-bl-[2.5rem] md:rounded-br-none z-10"
 						style={{ clipPath: "inset(0)" }}></div>
 					<MainGrid className="h-full z-0 items-end">
 						<div className="flex col-span-full lg:col-span-6 lg:items-center items-end z-10 row-end-1 pb-4">
-							<h1 className="text-primary text-8xl sm:text-9xl uppercase pb-6 sm:pb-0">
+							<h1 className="text-primary text-7xl sm:text-9xl uppercase pb-6 sm:pb-0">
 								{mainHeading}
 							</h1>
 						</div>

@@ -26,11 +26,11 @@ export const CTASection: React.FC<CTASectionProps> = ({
 					</button>
 					<div className="w-full sm:w-76 h-20 sm:rounded-tl-[2.5rem] bg-background absolute right-0 bottom-0 z-20" />
 					<div
-						className="absolute w-8 h-8 sm:bottom-0 sm:right-76 sm:left-auto left-0 bottom-20 bg-transparent shadow-[0_0_0_1rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-bl-[2.5rem] sm:rounded-br-[2.5rem] sm:rounded-bl-none z-10"
+						className="absolute w-8 h-8 sm:bottom-0 sm:right-76 sm:left-auto left-0 bottom-20 bg-transparent shadow-[0_0_0_10rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-bl-[2.5rem] sm:rounded-br-[2.5rem] sm:rounded-bl-none z-10"
 						style={{ clipPath: "inset(0)" }}
 					/>
 					<div
-						className="absolute w-8 h-8 bottom-20 right-0 bg-transparent shadow-[0_0_0_1rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-br-[2.5rem] z-10"
+						className="absolute w-8 h-8 bottom-20 right-0 bg-transparent shadow-[0_0_0_10rem_#F0F0F0,0_0_0_0_#F0F0F0] rounded-br-[2.5rem] z-10"
 						style={{ clipPath: "inset(0)" }}
 					/>
 
