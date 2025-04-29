@@ -30,7 +30,7 @@ export const Nav: React.FC = () => {
 	};
 
 	return (
-		<div className="absolute top-0 w-full z-50">
+		<div className="absolute top-0 w-full z-9999">
 			<MainGrid className="pt-6 z-50">
 				<nav className="contents w-full text-secondary">
 					<Image
@@ -75,7 +75,7 @@ export const Nav: React.FC = () => {
 			{mobileOpen && (
 				<div
 					className={clsx(
-						"fixed top-0 right-0 h-full w-3/4 max-w-xs bg-white shadow-lg z-9999 p-4 transition-transform duration-300 ease-in-out",
+						"fixed top-0 right-0 h-full w-3/4 max-w-xs bg-white shadow-lg z-999 p-4 transition-transform duration-300 ease-in-out",
 						animating ? "translate-x-0" : "translate-x-full"
 					)}>
 					{/* close button */}
