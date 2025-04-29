@@ -22,7 +22,7 @@ export const TrainingCard: React.FC<TrainingCardProps> = ({
 				/>
 			</div>
 			<div
-				className={`lg:col-span-6 flex flex-col h-fit gap-6 lg:h-full justify-between lg:row-start-1 ${
+				className={`lg:col-span-6 flex flex-col h-fit gap-6 lg:h-full lg:row-start-1 ${
 					imagePosition === "left"
 						? "lg:col-start-7"
 						: "lg:col-start-1"

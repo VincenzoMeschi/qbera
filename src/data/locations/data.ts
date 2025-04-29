@@ -20,7 +20,7 @@ export const locationData: LocationSectionProps = {
 	pageHeading: {
 		mainHeading: "Find Us In Your City",
 		subText:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus est neque, tempor vel augue a, iaculis maximus est. Vivamus malesuada enim in elit scelerisque venenatis. ",
+			"Come on out to one of our locations. We are activly adding new locations as we grow. Want us to come to you? Send us a message on our contact page, and we will consider. We chose new locations based on demand.",
 	},
 	locations: [
 		{
@@ -51,6 +51,23 @@ export const locationData: LocationSectionProps = {
 				imagePositionOverride: [1, 1],
 			},
 			mainHeading: "Dallas, TX",
+			ctaButton: {
+				icon: ArrowOutwardIcon,
+				label: "Get Started",
+				url: "https://youtube.com",
+			},
+		},
+		{
+			imageSettings: {
+				image: {
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745957748/austin-texas_umz2qg.jpg",
+					height: 549,
+					width: 2560,
+				},
+				alt: "Skyline of Austin, Texas",
+				imagePositionOverride: [1, 1],
+			},
+			mainHeading: "Austin, TX",
 			ctaButton: {
 				icon: ArrowOutwardIcon,
 				label: "Get Started",

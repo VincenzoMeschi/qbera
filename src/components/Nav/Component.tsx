@@ -34,7 +34,7 @@ export const Nav: React.FC = () => {
 			<MainGrid className="pt-6 z-50">
 				<nav className="contents w-full text-secondary">
 					<Image
-						src="/qb_era_logo_white.png"
+						src="/QB_Era_White.png"
 						alt="QB Era Logo"
 						width={125}
 						height={38}

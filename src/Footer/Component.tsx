@@ -15,7 +15,7 @@ export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 						<div className="col-span-4 sm:col-span-6 lg:col-span-4 py-16">
 							<div className="flex flex-col gap-3">
 								<Image
-									src={"/QB_Era_Logo_Red.png"}
+									src={"/QB_Era_Red.png"}
 									alt={firstThird.alt}
 									className="w-48"
 									width={500}
