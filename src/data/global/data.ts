@@ -16,7 +16,7 @@ export const footerData: FooterProps = {
 		firstThird: {
 			alt: "QB Era logo red variant",
 			companyInfo:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus est neque, tempor vel augue a, iaculis maximus est. Vivamus malesuada enim in elit scelerisque venenatis. ",
+				"Our mission is to develop and foster organic relationships with our athletes through our unique well-rounded training program. We want to put our athletes in a position to succeed, not just in football, but as a leader in life. We put high expectations on our athletes as we see them as extensions of us as a whole! We are family, to put it simply!",
 		},
 		secondThird: {
 			firstLabel: "Quick Links",
@@ -139,7 +139,7 @@ export const coachesData: CoachesSectionProps = {
 			},
 			mainHeading: "Preston Earl",
 			subText:
-				"Donec id ultrices ligula. Aliquam ut lorem fermentum, ultricies nisl quis, condimentum augue. Aliquam massa quam, sollicitudin vel congue a, aliquet quis nulla. Nam tincidunt quam sem, interdum tristique orci posuere vitae. Sed non elit eu sem mattis dignissim sit amet eget est.",
+				"Coach Preston is our lead coach with over 20 years combined of Coaching/playing experience. He has served in almost all college coaching roles with over 15 years of collegiate coaching experience. His coaching background includes athletes from some of the highest programs in the country, including Alabama, UCLA, Northwestern, Purdue, LA Chargers, Las Vegas Raiders, and many more. QB Coach Preston’s extensive background has earned him the title of being one of the top QB coaches in the country with countless college coach connections.",
 		},
 		{
 			imageSettings: {
@@ -153,7 +153,7 @@ export const coachesData: CoachesSectionProps = {
 			},
 			mainHeading: "Ryan Sample",
 			subText:
-				"Donec id ultrices ligula. Aliquam ut lorem fermentum, ultricies nisl quis, condimentum augue. Aliquam massa quam, sollicitudin vel congue a, aliquet quis nulla. Nam tincidunt quam sem, interdum tristique orci posuere vitae. Sed non elit eu sem mattis dignissim sit amet eget est.",
+				"Coach Ryan Sample is one of our veteran coaches at QB Era. Coach Sample re-wrote nearly the entire record book for quarterbacks during his three years as a starter at Benedictine University. Sample holds career records for passing yards, touchdowns, completions, and attempts at Benedictine. Coach Sample won the German Bowl overseas in Germany playing in the GFL. Over the last 15 years, Coach Sample has experience coaching ALL levels of football. He recently resigned as the Assistant Offensive Coordinator at Benedictine University to join us as a FULL-TIME QB Era Coach. ",
 		},
 		{
 			imageSettings: {
@@ -167,13 +167,13 @@ export const coachesData: CoachesSectionProps = {
 			},
 			mainHeading: "Kofi Hughes",
 			subText:
-				"Donec id ultrices ligula. Aliquam ut lorem fermentum, ultricies nisl quis, condimentum augue. Aliquam massa quam, sollicitudin vel congue a, aliquet quis nulla. Nam tincidunt quam sem, interdum tristique orci posuere vitae. Sed non elit eu sem mattis dignissim sit amet eget est.",
+				"Kofi is our lead Wide Receiver Coach and CEO of Athletes they Fear. Athletes they Fear is a non-profit program focused on developing our youth on/off the playing field. In partnership with QB-Era, Kofi and the Athletes they Fear serves over 100 D1 current athletes and hundreds of the top youth/high school athletes in the area. Kofi Hughes played 4 years in the Big Ten Conference at Indiana University. He was a three-year captain at WR and ranked eighth in yardage and tenth in receptions all-time there. He spent time in the NFL with the Texans, Redskins, and Bears.",
 		},
 
 		{
 			imageSettings: {
 				image: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745429045/Jarred_Park_evmzqj.jpg",
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745856902/Jarred_Coach_vwyruv.jpg",
 					height: 2432,
 					width: 1920,
 				},
@@ -183,7 +183,7 @@ export const coachesData: CoachesSectionProps = {
 
 			mainHeading: "Jarred Park",
 			subText:
-				"Donec id ultrices ligula. Aliquam ut lorem fermentum, ultricies nisl quis, condimentum augue. Aliquam massa quam, sollicitudin vel congue a, aliquet quis nulla. Nam tincidunt quam sem, interdum tristique orci posuere vitae. Sed non elit eu sem mattis dignissim sit amet eget est.",
+				"QB Coach Jarred is one of our most tenured coaches/ in our program. Coach Jarred played at College of Dupage and helped lead them to the 2021 NJCAA National Championship. Earning a Scholarship to play at McKendree University outside of St. Louis. Coach Jarred has spent the last couple years working with and developing quarterbacks in Texas. His current athletes include: Fernando Mendoza (Indiana University), Quinn Ewers (Miami Dolphins), Josh Hoover (TCU), Drew Mestemaker (UNT), Chaston Ditta (East Carolina), Trey Lance (LA Chargers), Kane Archer (UCF), and more.",
 		},
 		{
 			imageSettings: {

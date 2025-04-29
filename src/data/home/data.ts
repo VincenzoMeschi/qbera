@@ -16,7 +16,7 @@ export const heroData: HighImpactHeaderProps = {
 	},
 	mainHeading: "The Dawn Of A New Era",
 	subText:
-		"We build real bonds through complete training. Creating not just football stars, but life leaders. Our athletes carry our standards because they're family. Excellence in everything—that's our promise.",
+		"We want to put our athletes in a position to succeed, not just in football, but as a leader in life. We put high expectations on our athletes as we see them as extensions of us as a whole! We are family, to put it simply!",
 	ctaButton: {
 		icon: ArrowOutwardIcon,
 		label: "Get Started",
@@ -39,7 +39,7 @@ export const aboutUsData: AboutUsProps = {
 		},
 		mainHeading: "Our Identity",
 		subText:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus est neque, tempor vel augue a, iaculis maximus est. Vivamus malesuada enim in elit scelerisque venenatis. ",
+			"Our training is designed to build not just skill, but the confidence and mindset needed to succeed at the highest level. We are not just shaping quarterbacks—we are shaping the future of football.",
 	},
 	rightSide: {
 		top: {
@@ -53,7 +53,8 @@ export const aboutUsData: AboutUsProps = {
 				imagePositionOverride: [1, 1],
 			},
 			mainHeading: "Ride n' Grind",
-			subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			subText:
+				"Your success starts before the sun comes up. Join us Sunday @ 6:00am",
 		},
 		bottom: {
 			imageSettings: {
@@ -70,16 +71,16 @@ export const aboutUsData: AboutUsProps = {
 				url: "https://youtube.com",
 			},
 			mainHeading: "Get Started",
-			subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			subText: "Invest in yourself today. Click below to get started.",
 		},
 	},
 };
 
 export const testimonialData: TestimonialSectionProps = {
 	pageHeading: {
-		mainHeading: `What's The "Secret"?`,
+		mainHeading: `What's The Secret?`,
 		subText:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus est neque, tempor vel augue a, iaculis maximus est. Vivamus malesuada enim in elit scelerisque venenatis. ",
+			"Our guys put in the work. We just provide the guidence and scenarios to maximize their effort - and it works. Don't believe us? Hear what our guys have to say.",
 	},
 	testimonials: [
 		{

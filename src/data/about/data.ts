@@ -23,7 +23,7 @@ export const aboutUsData: AboutUsProps = {
 	leftSide: {
 		mainHeading: "We Set The Standard",
 		subText:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel neque facilisis, molestie massa quis, dapibus tortor. Suspendisse feugiat blandit tempor. Morbi et diam sit amet leo aliquam consectetur. Donec vitae tincidunt magna, nec ornare eros. Nunc faucibus turpis vitae diam pharetra, ut accumsan nunc ultricies. Curabitur nec purus maximus, porttitor mi ultrices, malesuada lacus. Vestibulum tempus interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus pharetra est at libero sodales facilisis. Aenean quis est vitae nisl volutpat finibus. Maecenas laoreet interdum ex, vel lobortis ex cursus in. Praesent sit amet justo cursus, ornare mi nec, posuere ligula. Pellentesque nibh velit, mattis nec dignissim ut, bibendum nec diam. Mauris id orci quam. Donec id ultrices ligula. Aliquam ut lorem fermentum, ultricies nisl quis, condimentum augue. Aliquam massa quam, sollicitudin vel congue a, aliquet quis nulla. Nam tincidunt quam sem, interdum tristique orci posuere vitae. Sed non elit eu sem mattis dignissim sit amet eget est. Nunc viverra, purus et vulputate maximus, urna justo porttitor orci, vehicula malesuada urna felis non tortor. Etiam ultricies dolor lacus. Nullam laoreet lacus vel porttitor aliquet. Suspendisse potenti. Nunc id nibh et dui convallis porttitor ac et dolor.",
+			"At our core, we believe that success is built on more than just talent—it's about relentless effort, discipline, and a mindset that refuses to quit. Our philosophy centers around the idea that every quarterback has the potential to be great, but it’s the work behind the scenes, the dedication in every rep, and the drive to constantly improve that unlocks that greatness. We approach every training session with a focus on not just refining technical skills, but developing the mental toughness and leadership qualities that define elite quarterbacks. Our approach combines the best of cutting-edge techniques with time-tested fundamentals. We tailor our programs to meet each athlete where they are, pushing them beyond their comfort zones while building a strong foundation of skills. Whether it’s improving footwork, mastering throwing mechanics, or enhancing football IQ, we focus on the holistic development of every quarterback. We believe that true excellence isn’t just about on-field performance; it's about building athletes who are leaders, who embrace challenges, and who have the discipline to outwork their competition.",
 		ctaButton: {
 			icon: ArrowOutwardIcon,
 			url: "https://youtube.com",
@@ -86,7 +86,7 @@ export const testimonialData: TestimonialSectionProps = {
 	pageHeading: {
 		mainHeading: `What's The "Secret"?`,
 		subText:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus est neque, tempor vel augue a, iaculis maximus est. Vivamus malesuada enim in elit scelerisque venenatis. ",
+			"Our guys put in the work. We just provide the guidence and scenarios to maximize their effort - and it works. Don't believe us? Hear what our guys have to say.",
 	},
 	testimonials: [
 		{
