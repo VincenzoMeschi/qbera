@@ -14,7 +14,7 @@ export const LowImpactHeader: React.FC<LowImpactHeaderProps> = (props) => {
 	return (
 		<div className={cn("relative h-[30rem]", props.className)}>
 			<div className="flex w-full bg-transparent h-[30rem] items-center justify-end absolute p-2 z-10">
-				<div className="relative w-full h-full bg-secondary-foreground rounded-[2.5rem] z-10 overflow-hidden">
+				<div className="relative w-full h-full bg-secondary-foreground rounded-[2.5rem] z-10 sm:overflow-hidden">
 					<Nav />
 					<div className="absolute bottom-0 left-0 bg-background flex pl-16  w-full md:w-[37rem] xl:w-1/2 h-44 md:rounded-tr-[2.5rem] z-10" />
 					<div
