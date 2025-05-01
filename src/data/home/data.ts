@@ -20,7 +20,7 @@ export const heroData: HighImpactHeaderProps = {
 	ctaButton: {
 		icon: ArrowOutwardIcon,
 		label: "Get Started",
-		url: "https://youtube.com",
+		url: "/schedule/chicago",
 	},
 	circleTextDesignContent: "Athletics - Development - Academy -",
 };
@@ -68,7 +68,7 @@ export const aboutUsData: AboutUsProps = {
 			},
 			ctaButton: {
 				icon: ArrowOutwardIcon,
-				url: "https://youtube.com",
+				url: "/schedule/chicago",
 			},
 			mainHeading: "Get Started",
 			subText: "Invest in yourself today. Click below to get started.",
@@ -169,6 +169,6 @@ export const ctaData: CTASectionProps = {
 	ctaButton: {
 		icon: ArrowOutwardIcon,
 		label: "Get Started",
-		url: "https://youtube.com",
+		url: "/schedule/chicago",
 	},
 };

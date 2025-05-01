@@ -26,7 +26,7 @@ export const aboutUsData: AboutUsProps = {
 			"At our core, we believe that success is built on more than just talent—it's about relentless effort, discipline, and a mindset that refuses to quit. Our philosophy centers around the idea that every quarterback has the potential to be great, but it’s the work behind the scenes, the dedication in every rep, and the drive to constantly improve that unlocks that greatness. We approach every training session with a focus on not just refining technical skills, but developing the mental toughness and leadership qualities that define elite quarterbacks. Our approach combines the best of cutting-edge techniques with time-tested fundamentals. We tailor our programs to meet each athlete where they are, pushing them beyond their comfort zones while building a strong foundation of skills. Whether it’s improving footwork, mastering throwing mechanics, or enhancing football IQ, we focus on the holistic development of every quarterback. We believe that true excellence isn’t just about on-field performance; it's about building athletes who are leaders, who embrace challenges, and who have the discipline to outwork their competition.",
 		ctaButton: {
 			icon: ArrowOutwardIcon,
-			url: "https://youtube.com",
+			url: "/schedule/chicago",
 			label: "Get Started",
 		},
 	},
@@ -56,7 +56,7 @@ export const aboutUsData: AboutUsProps = {
 			},
 			ctaButton: {
 				icon: ArrowOutwardIcon,
-				url: "https://youtube.com",
+				url: "/schedule/chicago",
 			},
 			mainHeading: "Get Started",
 			subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -78,7 +78,7 @@ export const giantCTAData: GiantCTASectionProps = {
 	ctaButton: {
 		icon: ArrowOutwardIcon,
 		label: "Get Started",
-		url: "https://youtube.com",
+		url: "/schedule/chicago",
 	},
 };
 
@@ -175,6 +175,6 @@ export const ctaData: CTASectionProps = {
 	ctaButton: {
 		icon: ArrowOutwardIcon,
 		label: "Get Started",
-		url: "https://youtube.com",
+		url: "/schedule/chicago",
 	},
 };

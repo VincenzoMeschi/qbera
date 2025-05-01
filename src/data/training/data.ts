@@ -36,7 +36,7 @@ export const trainingData: TrainingSectionProps = {
 				ctaButton: {
 					icon: ArrowOutwardIcon,
 					label: "Get Started",
-					url: "https://youtube.com",
+					url: "/schedule/chicago",
 				},
 			},
 		},
@@ -58,7 +58,7 @@ export const trainingData: TrainingSectionProps = {
 				ctaButton: {
 					icon: ArrowOutwardIcon,
 					label: "Get Started",
-					url: "https://youtube.com",
+					url: "/schedule/chicago",
 				},
 			},
 		},
@@ -80,7 +80,7 @@ export const trainingData: TrainingSectionProps = {
 				ctaButton: {
 					icon: ArrowOutwardIcon,
 					label: "Get Started",
-					url: "https://youtube.com",
+					url: "/schedule/chicago",
 				},
 			},
 		},
@@ -100,6 +100,6 @@ export const ctaData: CTASectionProps = {
 	ctaButton: {
 		icon: ArrowOutwardIcon,
 		label: "Get Started",
-		url: "https://youtube.com",
+		url: "/schedule/chicago",
 	},
 };

@@ -84,6 +84,6 @@ export const ctaData: CTASectionProps = {
 	ctaButton: {
 		icon: ArrowOutwardIcon,
 		label: "Download",
-		url: "https://youtube.com",
+		url: "/schedule/chicago",
 	},
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { RightColumnAboutProps } from "./config";
 
 export const RightColumnAbout: React.FC<RightColumnAboutProps> = (props) => {
@@ -38,13 +39,15 @@ export const RightColumnAbout: React.FC<RightColumnAboutProps> = (props) => {
 					<p className="text-secondary w-full">{bottom.subText}</p>
 				</div>
 				<div className="absolute bottom-0 right-0 z-10">
-					<button className="flex text-primary items-center cursor-pointer uppercase group">
+					<Link
+						href={bottom.ctaButton.url}
+						className="flex text-primary items-center cursor-pointer uppercase group">
 						<div className="bg-foreground group-hover:bg-card transition-colors duration-300 flex items-center justify-center p-10 rounded-[2rem]">
 							<div className="transform group-hover:rotate-45 transition-all duration-300 text-accent-foreground group-hover:text-foreground">
 								<bottom.ctaButton.icon className="scale-200" />
 							</div>
 						</div>
-					</button>
+					</Link>
 				</div>
 				<div className="LAYERMASK">
 					<div className="w-30 h-30 bg-secondary absolute bottom-0 right-0 rounded-tl-[2.5rem] z-1" />

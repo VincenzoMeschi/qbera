@@ -23,23 +23,23 @@ export const footerData: FooterProps = {
 			quickLinks: [
 				{
 					label: "Home",
-					url: "https://youtube.com",
+					url: "/schedule/chicago",
 				},
 				{
 					label: "About Us",
-					url: "https://youtube.com",
+					url: "/schedule/chicago",
 				},
 				{
 					label: "Coaches",
-					url: "https://youtube.com",
+					url: "/schedule/chicago",
 				},
 				{
 					label: "Training",
-					url: "https://youtube.com",
+					url: "/schedule/chicago",
 				},
 				{
 					label: "Locations",
-					url: "https://youtube.com",
+					url: "/schedule/chicago",
 				},
 			],
 			secondLabel: "Contact Links",
@@ -78,7 +78,7 @@ export const footerData: FooterProps = {
 			},
 			{
 				logo: YouTube,
-				url: "https://youtube.com",
+				url: "/schedule/chicago",
 			},
 			{
 				logo: Instagram,
