@@ -115,29 +115,6 @@ export const testimonialData: TestimonialSectionProps = {
 		{
 			imageSettings: {
 				image: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746080749/Colton_Gumino_xmlftg.jpg",
-					width: 1280,
-					height: 693,
-				},
-				alt: "Colton Gumino holding a football looking downfield at training",
-				imagePositionOverride: [1, 1],
-			},
-			logoSettings: {
-				logo: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745428223/image_70_oqek38.png",
-					width: 200,
-					height: 200,
-				},
-				alt: "Univeristy of California Los Angeles Logo",
-				logoPositionOverride: [1, 1],
-			},
-			playerName: "Colton Gumino",
-			affiliation: "Univeristy of California Los Angeles",
-			quote: '"Preston helped elevate my game over the last 12 years. I wouldn’t be where I am without him. The best of the best!"',
-		},
-		{
-			imageSettings: {
-				image: {
 					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746083076/Jayden_Reed_ayhvrw.jpg",
 					width: 1280,
 					height: 693,
@@ -157,6 +134,29 @@ export const testimonialData: TestimonialSectionProps = {
 			playerName: "Jayden Reed",
 			affiliation: "Green Bay Packers",
 			quote: "“I can honestly say [Coach Kofi Hughes] is like my brother. He’s taught me more things off the field than on the field. Just living right. Little things like that.”",
+		},
+		{
+			imageSettings: {
+				image: {
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746080749/Colton_Gumino_xmlftg.jpg",
+					width: 1280,
+					height: 693,
+				},
+				alt: "Colton Gumino holding a football looking downfield at training",
+				imagePositionOverride: [1, 1],
+			},
+			logoSettings: {
+				logo: {
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745428223/image_70_oqek38.png",
+					width: 200,
+					height: 200,
+				},
+				alt: "Univeristy of California Los Angeles Logo",
+				logoPositionOverride: [1, 1],
+			},
+			playerName: "Colton Gumino",
+			affiliation: "Univeristy of California Los Angeles",
+			quote: '"Preston helped elevate my game over the last 12 years. I wouldn’t be where I am without him. The best of the best!"',
 		},
 	],
 };
