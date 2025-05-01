@@ -173,7 +173,7 @@ export const coachesData: CoachesSectionProps = {
 		{
 			imageSettings: {
 				image: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745856902/Jarred_Coach_vwyruv.jpg",
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746070563/Jarred_Park_fwbiku.jpg",
 					height: 2432,
 					width: 1920,
 				},
@@ -184,20 +184,6 @@ export const coachesData: CoachesSectionProps = {
 			mainHeading: "Jarred Park",
 			subText:
 				"QB Coach Jarred is one of our most tenured coaches/ in our program. Coach Jarred played at College of Dupage and helped lead them to the 2021 NJCAA National Championship. Earning a Scholarship to play at McKendree University outside of St. Louis. Coach Jarred has spent the last couple years working with and developing quarterbacks in Texas. His current athletes include: Fernando Mendoza (Indiana University), Quinn Ewers (Miami Dolphins), Josh Hoover (TCU), Drew Mestemaker (UNT), Chaston Ditta (East Carolina), Trey Lance (LA Chargers), Kane Archer (UCF), and more.",
-		},
-		{
-			imageSettings: {
-				image: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745429135/Evan_Bernard_onqxkl.jpg",
-					height: 2432,
-					width: 1920,
-				},
-				alt: "Coach Evan Bernard crossing his arms while evaluating a quarterback at a training session",
-				imagePositionOverride: [1, 1],
-			},
-			mainHeading: "Evan Bernard",
-			subText:
-				"Donec id ultrices ligula. Aliquam ut lorem fermentum, ultricies nisl quis, condimentum augue. Aliquam massa quam, sollicitudin vel congue a, aliquet quis nulla. Nam tincidunt quam sem, interdum tristique orci posuere vitae. Sed non elit eu sem mattis dignissim sit amet eget est.",
 		},
 	],
 };
