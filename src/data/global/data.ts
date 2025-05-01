@@ -4,7 +4,6 @@ import { CoachesSectionProps } from "@/sections/CoachesSection/config";
 import {
 	Facebook,
 	X,
-	YouTube,
 	Instagram,
 	Phone,
 	Email,
@@ -23,23 +22,23 @@ export const footerData: FooterProps = {
 			quickLinks: [
 				{
 					label: "Home",
-					url: "/schedule/chicago",
+					url: "/",
 				},
 				{
 					label: "About Us",
-					url: "/schedule/chicago",
+					url: "/about-us",
 				},
 				{
 					label: "Coaches",
-					url: "/schedule/chicago",
+					url: "/coaches",
 				},
 				{
 					label: "Training",
-					url: "/schedule/chicago",
+					url: "/training",
 				},
 				{
 					label: "Locations",
-					url: "/schedule/chicago",
+					url: "/locations",
 				},
 			],
 			secondLabel: "Contact Links",
@@ -75,10 +74,6 @@ export const footerData: FooterProps = {
 			{
 				logo: X,
 				url: "https://x.com",
-			},
-			{
-				logo: YouTube,
-				url: "/schedule/chicago",
 			},
 			{
 				logo: Instagram,

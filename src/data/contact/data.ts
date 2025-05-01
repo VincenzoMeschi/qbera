@@ -72,7 +72,7 @@ export const contactSectionData: ContactSectionProps = {
 };
 
 export const ctaData: CTASectionProps = {
-	mainHeading: "Download Our App",
+	mainHeading: "Book A Session Today",
 	imageSettings: {
 		image: {
 			src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745959671/Kofi_Contact_CTA_mwimvl.jpg",
@@ -83,7 +83,7 @@ export const ctaData: CTASectionProps = {
 	},
 	ctaButton: {
 		icon: ArrowOutwardIcon,
-		label: "Download",
+		label: "Get Started",
 		url: "/schedule/chicago",
 	},
 };
