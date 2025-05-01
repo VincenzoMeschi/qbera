@@ -5,9 +5,9 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 export const heroData: LowImpactHeaderProps = {
 	imageSettings: {
 		image: {
-			src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746077545/Kyan-Berry-Chicago-Hero_ugmljd.jpg",
+			src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746079610/Kyan_Berry-Johnson_z6xmwe.jpg",
 			width: 2560,
-			height: 1266,
+			height: 1196,
 		},
 		alt: "Kyan Berry-Johnson running a route at QB Era",
 		imagePositionOverride: [0, 0],
