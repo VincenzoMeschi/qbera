@@ -111,8 +111,8 @@ export const logoSliderData: LogoSliderProps = {
 			alt: "Green Bay Packers Logo",
 		},
 		{
-			image: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745428225/image_68_aa32gq.png",
-			alt: "University of Oregon Logo",
+			image: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746080300/USC_Logo_vekgf2.png",
+			alt: "University of Southern California Logo",
 		},
 		{
 			image: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745428224/image_69_uz9n2w.png",

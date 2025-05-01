@@ -84,7 +84,7 @@ export const giantCTAData: GiantCTASectionProps = {
 
 export const testimonialData: TestimonialSectionProps = {
 	pageHeading: {
-		mainHeading: `What's The "Secret"?`,
+		mainHeading: `What's The Secret?`,
 		subText:
 			"Our guys put in the work. We just provide the guidence and scenarios to maximize their effort - and it works. Don't believe us? Hear what our guys have to say.",
 	},
@@ -92,71 +92,71 @@ export const testimonialData: TestimonialSectionProps = {
 		{
 			imageSettings: {
 				image: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745425742/Jonas_Williams_Testimonial_yn0dzp.jpg",
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746081938/Mark_Gronowski_h9okhc.jpg",
 					width: 1280,
 					height: 693,
 				},
-				alt: "Jonas Williams throwing a football",
+				alt: "Mark Gronowski throwing a football",
 				imagePositionOverride: [1, 1],
 			},
 			logoSettings: {
 				logo: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745428225/image_68_aa32gq.png",
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745428220/image_64_dttkpi.png",
 					width: 200,
 					height: 200,
 				},
-				alt: "University of Oregon Logo",
+				alt: "University of Iowa logo",
 				logoPositionOverride: [1, 1],
 			},
-			playerName: "Jonas Williams",
-			affiliation: "University of Oregon",
-			quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus est neque, tempor vel augue a, iaculis maximus est. Vivamus malesuada enim in elit scelerisque venenatis.",
+			playerName: "Mark Gronowski",
+			affiliation: "University of Iowa",
+			quote: '"Preston has been a huge part in my development. His attention to detail and passion for football is like no other."',
 		},
 		{
 			imageSettings: {
 				image: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745425954/Jack_Laush_Testimonial_zmrt9z.jpg",
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746080749/Colton_Gumino_xmlftg.jpg",
 					width: 1280,
 					height: 693,
 				},
-				alt: "Jack Lausch throwing a football",
+				alt: "Colton Gumino holding a football looking downfield at training",
 				imagePositionOverride: [1, 1],
 			},
 			logoSettings: {
 				logo: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745428220/image_65_uxwyd3.png",
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745428223/image_70_oqek38.png",
 					width: 200,
 					height: 200,
 				},
-				alt: "Northwestern University Logo",
+				alt: "Univeristy of California Los Angeles Logo",
 				logoPositionOverride: [1, 1],
 			},
-			playerName: "Jack Lausch",
-			affiliation: "Northwestern University",
-			quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus est neque, tempor vel augue a, iaculis maximus est. Vivamus malesuada enim in elit scelerisque venenatis.",
+			playerName: "Colton Gumino",
+			affiliation: "Univeristy of California Los Angeles",
+			quote: '"Preston helped elevate my game over the last 12 years. I wouldn’t be where I am without him. The best of the best!"',
 		},
 		{
 			imageSettings: {
 				image: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745426063/Danny_Etling_Testimonial_ezfx0u.jpg",
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746083076/Jayden_Reed_ayhvrw.jpg",
 					width: 1280,
 					height: 693,
 				},
-				alt: "Danny Etling holding a football looking downfield at training",
+				alt: "Jayden Reed throwing a football",
 				imagePositionOverride: [1, 1],
 			},
 			logoSettings: {
 				logo: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745428219/image_63_jtbezz.png",
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745428222/image_67_cjea6q.png",
 					width: 200,
 					height: 200,
 				},
-				alt: "Michigan Panthers Logo",
+				alt: "Green Bay Packers Logo",
 				logoPositionOverride: [1, 1],
 			},
-			playerName: "Danny Etling",
-			affiliation: "Michigan Panthers",
-			quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus est neque, tempor vel augue a, iaculis maximus est. Vivamus malesuada enim in elit scelerisque venenatis.",
+			playerName: "Jayden Reed",
+			affiliation: "Green Bay Packers",
+			quote: "“I can honestly say [Coach Kofi Hughes] is like my brother. He’s taught me more things off the field than on the field. Just living right. Little things like that.”",
 		},
 	],
 };

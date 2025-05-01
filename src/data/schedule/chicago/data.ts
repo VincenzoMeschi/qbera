@@ -7,10 +7,10 @@ export const heroData: LowImpactHeaderProps = {
 		image: {
 			src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746079610/Kyan_Berry-Johnson_z6xmwe.jpg",
 			width: 2560,
-			height: 1196,
+			height: 970,
 		},
 		alt: "Kyan Berry-Johnson running a route at QB Era",
-		imagePositionOverride: [1, 0],
+		imagePositionOverride: [0.6, 0.5],
 	},
 	mainHeading: "Book Now",
 };

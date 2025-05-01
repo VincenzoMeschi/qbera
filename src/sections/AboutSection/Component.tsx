@@ -1,7 +1,7 @@
 import React from "react";
 
 import { AboutUsProps } from "@/sections/AboutSection/config";
-
+import Link from "next/link";
 import { MainGrid } from "@/components/MainGrid/Component";
 import Image from "next/image";
 import { RightColumnAbout } from "@/components/RightColumnAbout/Component";
@@ -78,7 +78,9 @@ export const AboutUs: React.FC<AboutUsProps> = ({
 							</div>
 
 							{leftSide.ctaButton && (
-								<button className="flex text-primary items-center cursor-pointer text-2xl uppercase gap-4 group w-fit">
+								<Link
+									href={leftSide.ctaButton.url}
+									className="flex text-primary items-center cursor-pointer text-2xl uppercase gap-4 group w-fit">
 									<div className="bg-foreground group-hover:bg-card transition-colors duration-300 flex items-center justify-center py-2 px-3 rounded-lg">
 										<div className="transform group-hover:rotate-45 transition-all duration-300 text-accent-foreground group-hover:text-foreground">
 											<leftSide.ctaButton.icon className="scale-150" />
@@ -87,7 +89,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({
 									<p className="tracking-wider">
 										{leftSide.ctaButton.label}
 									</p>
-								</button>
+								</Link>
 							)}
 						</div>
 					</div>
