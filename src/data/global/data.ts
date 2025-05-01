@@ -148,7 +148,7 @@ export const coachesData: CoachesSectionProps = {
 			},
 			mainHeading: "Ryan Sample",
 			subText:
-				"Coach Ryan Sample is one of our veteran coaches at QB Era. Coach Sample re-wrote nearly the entire record book for quarterbacks during his three years as a starter at Benedictine University. Sample holds career records for passing yards, touchdowns, completions, and attempts at Benedictine. Coach Sample won the German Bowl overseas in Germany playing in the GFL. Over the last 15 years, Coach Sample has experience coaching ALL levels of football. He recently resigned as the Assistant Offensive Coordinator at Benedictine University to join us as a FULL-TIME QB Era Coach. ",
+				"Coach Sample was a very accomplished quarterback throughout his career. At Manteno High School he threw for 6,556 and 65 touchdowns, which at the time of his graduation ranked 14th all time in IHSA history. In college Ryan was a 4 year starter, throwing for 9,996 yards and 99 touchdowns in his 41 collegiate starts. After his college career Sample went on to play overseas in Germany, and Czech and helped both teams win a Championship in their respective leagues. Most recently Sample coached at Benedictine University, as the quarterback coach and pass game Coordinator. Ryan Sample joins the staff with 11 years of experience coaching quarterbacks, and 4 years of coaching College football.",
 		},
 		{
 			imageSettings: {
