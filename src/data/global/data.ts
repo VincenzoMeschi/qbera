@@ -69,15 +69,15 @@ export const footerData: FooterProps = {
 		socials: [
 			{
 				logo: Facebook,
-				url: "https://facebook.com",
+				url: "https://www.facebook.com/profile.php?id=61575628481036",
 			},
 			{
 				logo: X,
-				url: "https://x.com",
+				url: "https://x.com/EraQb67104",
 			},
 			{
 				logo: Instagram,
-				url: "https://instagram.com",
+				url: "https://www.instagram.com/qb_era/",
 			},
 		],
 	},
