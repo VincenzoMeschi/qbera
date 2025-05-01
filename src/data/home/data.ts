@@ -7,12 +7,12 @@ import { CTASectionProps } from "@/sections/CTASection/config";
 export const heroData: HighImpactHeaderProps = {
 	imageSettings: {
 		image: {
-			src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745424746/Main_Hero_Image_nrn65p.jpg",
-			height: 1672,
-			width: 2560,
+			src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746117151/matt_morsissey_b8uwlb.jpg",
+			height: 2972,
+			width: 2391,
 		},
-		alt: "Jonas Williams tossing a football to himself in a dark room",
-		imagePositionOverride: [0.4, 0.2],
+		alt: "Matt Morrissey dropping back with a football looking downfield",
+		imagePositionOverride: [0.7, 0.2],
 	},
 	mainHeading: "The Dawn Of A New Era",
 	subText:

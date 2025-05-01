@@ -8,12 +8,12 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 export const heroData: LowImpactHeaderProps = {
 	imageSettings: {
 		image: {
-			src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745426747/About_Page_Hero_zakam4.jpg",
-			height: 970,
+			src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746117563/Ryan_Sample_HERO_ag2uew.jpg",
+			height: 916,
 			width: 2560,
 		},
-		alt: "Matt Morrissey dropping back with a football looking downfield",
-		imagePositionOverride: [0.6, 0.5],
+		alt: "Ryan Sample coaching at a session at QB Era",
+		imagePositionOverride: [0.6, 0.2],
 	},
 	mainHeading: "About Us",
 };
