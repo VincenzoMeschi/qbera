@@ -52,7 +52,7 @@ export const aboutUsData: AboutUsProps = {
 				alt: "Close of of a wide reciever running across the frame in a hoodie and nike gloves",
 				imagePositionOverride: [1, 1],
 			},
-			mainHeading: "Ride n' Grind",
+			mainHeading: "Rise n' Grind",
 			subText:
 				"Your success starts before the sun comes up. Join us Sunday @ 6:00am",
 		},

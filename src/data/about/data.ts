@@ -41,7 +41,7 @@ export const aboutUsData: AboutUsProps = {
 				alt: "Close of of a wide reciever running across the frame in a hoodie and nike gloves",
 				imagePositionOverride: [1, 1],
 			},
-			mainHeading: "Ride n' Grind",
+			mainHeading: "Rise n' Grind",
 			subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 		},
 		bottom: {
