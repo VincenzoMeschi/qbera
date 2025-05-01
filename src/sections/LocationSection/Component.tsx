@@ -2,6 +2,7 @@ import React from "react";
 import { LocationSectionProps } from "@/sections/LocationSection/config";
 import { MainGrid } from "@/components/MainGrid/Component";
 import Image from "next/image";
+import Link from "next/link";
 
 export const LocationSection: React.FC<LocationSectionProps> = ({
 	pageHeading,
@@ -26,7 +27,9 @@ export const LocationSection: React.FC<LocationSectionProps> = ({
 							<h3 className="text-5xl uppercase text-primary-foreground z-3">
 								{location.mainHeading}
 							</h3>
-							<button className="flex text-primary-foreground items-center cursor-pointer text-xl uppercase gap-4 group z-3">
+							<Link
+								href={location.ctaButton.url}
+								className="flex text-primary-foreground items-center cursor-pointer text-xl uppercase gap-4 group z-3">
 								<div className="bg-background group-hover:bg-card transition-colors duration-300 flex items-center justify-cente rounded-lg py-1 px-1.5">
 									<div className="transform group-hover:rotate-45 transition-all duration-300 text-primary group-hover:text-foreground">
 										<location.ctaButton.icon className="scale-100" />
@@ -35,7 +38,7 @@ export const LocationSection: React.FC<LocationSectionProps> = ({
 								<p className="tracking-wider hidden sm:block">
 									{location.ctaButton.label}
 								</p>
-							</button>
+							</Link>
 							<div className="z-1 absolute left-0 bottom-0 h-full w-full bg-gradient-to-t from-black to-transparent opacity-70"></div>
 							<Image
 								src={location.imageSettings.image}
