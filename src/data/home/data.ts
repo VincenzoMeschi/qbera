@@ -165,7 +165,7 @@ export const ctaData: CTASectionProps = {
 		alt: "Matt Morrisey snapping a football to himself",
 		imagePositionOverride: [1, 0],
 	},
-	mainHeading: "QB's, First One's On Us.",
+	mainHeading: "Book Your First Session Now",
 	ctaButton: {
 		icon: ArrowOutwardIcon,
 		label: "Get Started",
