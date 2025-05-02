@@ -12,75 +12,83 @@ export const ChicagoBooking: React.FC = () => {
 	useEffect(() => {
 		if (typeof window === "undefined") return;
 
+		// schedules script
 		if (scheduleRef.current) {
 			scheduleRef.current.innerHTML = "";
-			const sched = document.createElement("script");
-			sched.src = "https://brandedweb.mindbodyonline.com/embed/widget.js";
-			sched.async = true;
-			scheduleRef.current.appendChild(sched);
+			const s = document.createElement("script");
+			s.src = "https://brandedweb.mindbodyonline.com/embed/widget.js";
+			s.async = true;
+			scheduleRef.current.appendChild(s);
 		}
 
-		const injectPricing = (
+		const inject = (
 			container: HTMLDivElement,
 			serviceId: string,
-			innerHtml: string
+			text: string,
+			url: string
 		) => {
 			container.innerHTML = "";
-			const hc = document.createElement("healcode-widget");
-			hc.setAttribute("data-version", "0.2");
-			hc.setAttribute(
-				"data-link-class",
-				"healcode-pricing-option-text-link"
-			);
-			hc.setAttribute("data-site-id", "126307");
-			hc.setAttribute("data-mb-site-id", "5744830");
-			hc.setAttribute("data-service-id", serviceId);
-			hc.setAttribute("data-bw-identity-site", "true");
-			hc.setAttribute("data-type", "pricing-link");
-			hc.setAttribute("data-inner-html", innerHtml);
+			const hc = document.createElement("a");
+			hc.href = url;
+			hc.className =
+				"healcode-link healcode-pricing-option-text-link block w-full h-full flex items-center justify-center";
+			hc.dataset.url = url;
+			hc.dataset.widgetName = "pricing-link";
+			hc.dataset.mboSiteId = "5744830";
+			hc.dataset.serviceId = serviceId;
+			hc.dataset.bwIdentitySite = "true";
+			hc.rev = "iframe";
+			hc.title = serviceId;
+			hc.dataset.hcOpenModal = "modal-iframe";
+			hc.innerText = text;
 			container.appendChild(hc);
 
-			const script = document.createElement("script");
-			script.src =
+			const sc = document.createElement("script");
+			sc.src =
 				"https://widgets.mindbodyonline.com/javascripts/healcode.js";
-			script.async = true;
-			container.appendChild(script);
+			sc.async = true;
+			container.appendChild(sc);
 		};
 
 		if (singleRef.current) {
-			injectPricing(
+			inject(
 				singleRef.current,
 				"100002",
-				"Buy Now – Single Session"
+				"Buy Now – Single",
+				"https://cart.mindbodyonline.com/sites/126307/cart/add_service?mbo_item_id=100002"
 			);
 		}
-
 		if (fiveRef.current) {
-			injectPricing(fiveRef.current, "100007", "Buy Now – 5 Packages");
+			inject(
+				fiveRef.current,
+				"100007",
+				"Buy Now – 5 Pack",
+				"https://cart.mindbodyonline.com/sites/126307/cart/add_service?mbo_item_id=100007"
+			);
 		}
-
 		if (tenRef.current) {
-			injectPricing(tenRef.current, "100008", "Buy Now – 10 Packages");
+			inject(
+				tenRef.current,
+				"100008",
+				"Buy Now – 10 Pack",
+				"https://cart.mindbodyonline.com/sites/126307/cart/add_service?mbo_item_id=100008"
+			);
 		}
 	}, []);
+
+	const pricingClasses =
+		"col-span-4 sm:col-span-6 lg:col-span-4 mt-4 " +
+		"flex items-center justify-center " +
+		"bg-white border-2 border-primary font-bold " +
+		"hover:bg-secondary transition-colors duration-200 h-18";
 
 	return (
 		<div className="w-full h-full">
 			<MainGrid>
-				<div
-					ref={singleRef}
-					className="col-span-4 sm:col-span-6 lg:col-span-4 mt-4 flex items-center justify-center py-4 px-2 bg-white border-primary border-2 font-bold hover:bg-secondary transition-colors duration-200"
-				/>
+				<div ref={singleRef} className={pricingClasses} />
+				<div ref={fiveRef} className={pricingClasses} />
+				<div ref={tenRef} className={pricingClasses} />
 
-				<div
-					ref={fiveRef}
-					className="col-span-4 sm:col-span-6 lg:col-span-4 mt-4 flex items-center justify-center py-4 px-2 bg-white border-primary border-2 font-bold hover:bg-secondary transition-colors duration-200"
-				/>
-
-				<div
-					ref={tenRef}
-					className="col-span-4 sm:col-span-6 lg:col-span-4 mt-4 flex items-center justify-center py-4 px-2 bg-white border-primary border-2 font-bold hover:bg-secondary transition-colors duration-200"
-				/>
 				<div
 					ref={scheduleRef}
 					className="mindbody-widget col-span-4 sm:col-span-6 lg:col-span-12 rounded-[2.5rem] overflow-hidden"
