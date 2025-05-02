@@ -32,6 +32,8 @@ export const RightColumnAbout: React.FC<RightColumnAboutProps> = (props) => {
 				/>
 			</div>
 			<div className=" w-full lg:h-3/5 rounded-[2.5rem] rounded-br-none overflow-hidden relative">
+				<div className="absolute inset-0 bg-black opacity-30 sm:hidden z-0" />
+
 				<div className="flex flex-col absolute top-5 right-auto left-5 sm:right-5 sm:left-auto w-50">
 					<h3 className="text-secondary text-4xl uppercase leading-relaxed">
 						{bottom.mainHeading}

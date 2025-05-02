@@ -16,7 +16,7 @@ export const heroData: HighImpactHeaderProps = {
 	},
 	mainHeading: "The Dawn Of A New Era",
 	subText:
-		"We want to put our athletes in a position to succeed, not just in football, but as a leader in life. We put high expectations on our athletes as we see them as extensions of us as a whole! We are family, to put it simply!",
+		"We aim to position our athletes for success not only on the football field but also as leaders in life. We hold them to high standards because we see them as a reflection of who we are, as individuals and as a program. At the end of the day, we’re more than just a training service—we’re a family.",
 	ctaButton: {
 		icon: ArrowOutwardIcon,
 		label: "Get Started",
@@ -39,7 +39,7 @@ export const aboutUsData: AboutUsProps = {
 		},
 		mainHeading: "Our Identity",
 		subText:
-			"Our training is designed to build not just skill, but the confidence and mindset needed to succeed at the highest level. We are not just shaping quarterbacks—we are shaping the future of football.",
+			"Our training is built to develop more than just technical skill — it fosters the confidence, discipline, and mindset required to excel at the highest levels of the game. We’re not just shaping quarterbacks; we’re shaping the future of football.",
 	},
 	rightSide: {
 		top: {
@@ -80,7 +80,7 @@ export const testimonialData: TestimonialSectionProps = {
 	pageHeading: {
 		mainHeading: `What's The Secret?`,
 		subText:
-			"Our guys put in the work. We just provide the guidence and scenarios to maximize their effort - and it works. Don't believe us? Hear what our guys have to say.",
+			"Our athletes put in the hard work. We simply provide the guidance and scenarios that maximize their effort, and it delivers results. Don’t just take our word for it—hear directly from our athletes.",
 	},
 	testimonials: [
 		{
