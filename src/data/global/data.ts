@@ -134,7 +134,7 @@ export const coachesData: CoachesSectionProps = {
 			},
 			mainHeading: "Preston Earl",
 			subText:
-				"Coach Preston is our lead coach with over 20 years combined of Coaching/playing experience. He has served in almost all college coaching roles with over 15 years of collegiate coaching experience. His coaching background includes athletes from some of the highest programs in the country, including Alabama, UCLA, Northwestern, Purdue, LA Chargers, Las Vegas Raiders, and many more. QB Coach Preston’s extensive background has earned him the title of being one of the top QB coaches in the country with countless college coach connections.",
+				"Coach Preston serves as our lead quarterbacks coach, bringing over 20 years of combined playing and coaching experience to the program. With more than 15 years of collegiate coaching under his belt, he has held a wide range of roles at the college level, contributing to the development of athletes across multiple positions. His coaching resume includes work with players from some of the nation’s premier programs and professional organizations, including Alabama, UCLA, Northwestern, Purdue, the Los Angeles Chargers, and the Las Vegas Raiders, among others. Coach Preston's depth of experience and strong network within the collegiate coaching community have earned him recognition as one of the top quarterback coaches in the country.",
 		},
 		{
 			imageSettings: {
@@ -148,7 +148,7 @@ export const coachesData: CoachesSectionProps = {
 			},
 			mainHeading: "Ryan Sample",
 			subText:
-				"Coach Sample was a very accomplished quarterback throughout his career. At Manteno High School he threw for 6,556 and 65 touchdowns, which at the time of his graduation ranked 14th all time in IHSA history. In college Ryan was a 4 year starter, throwing for 9,996 yards and 99 touchdowns in his 41 collegiate starts. After his college career Sample went on to play overseas in Germany, and Czech and helped both teams win a Championship in their respective leagues. Most recently Sample coached at Benedictine University, as the quarterback coach and pass game Coordinator. Ryan Sample joins the staff with 11 years of experience coaching quarterbacks, and 4 years of coaching College football.",
+				"Coach Ryan Sample brings a distinguished playing and coaching background to our staff. As a standout quarterback at Manteno High School, he amassed 6,556 passing yards and 65 touchdowns—ranking 14th all-time in Illinois High School Association (IHSA) history at the time of his graduation. In college, Sample was a four-year starter, throwing for 9,996 yards and 99 touchdowns over 41 starts. Following his collegiate career, he played professionally in Europe, where he led teams in both Germany and the Czech Republic to league championships. Most recently, Coach Sample served as the quarterbacks coach and pass game coordinator at Benedictine University. He joins our program with 11 years of experience coaching quarterbacks, including four years at the collegiate level.",
 		},
 		{
 			imageSettings: {
@@ -162,7 +162,7 @@ export const coachesData: CoachesSectionProps = {
 			},
 			mainHeading: "Kofi Hughes",
 			subText:
-				"Kofi is our lead Wide Receiver Coach and CEO of Athletes they Fear. Athletes they Fear is a non-profit program focused on developing our youth on/off the playing field. In partnership with QB-Era, Kofi and the Athletes they Fear serves over 100 D1 current athletes and hundreds of the top youth/high school athletes in the area. Kofi Hughes played 4 years in the Big Ten Conference at Indiana University. He was a three-year captain at WR and ranked eighth in yardage and tenth in receptions all-time there. He spent time in the NFL with the Texans, Redskins, and Bears.",
+				"Kofi Hughes serves as our lead Wide Receivers Coach and is the CEO of Athletes They Fear, a nonprofit organization dedicated to developing youth both on and off the field. In partnership with QB-Era, Athletes They Fear supports over 100 current Division I athletes and hundreds of top youth and high school players across the region. Kofi played four years in the Big Ten Conference at Indiana University, where he was a three-year team captain at wide receiver. He concluded his collegiate career ranked eighth all-time in receiving yards and tenth in receptions in program history. Following college, Kofi spent time in the NFL with the Houston Texans, Washington Redskins, and Chicago Bears.",
 		},
 
 		{
@@ -178,7 +178,7 @@ export const coachesData: CoachesSectionProps = {
 
 			mainHeading: "Jarred Park",
 			subText:
-				"QB Coach Jarred is one of our most tenured coaches/ in our program. Coach Jarred played at College of Dupage and helped lead them to the 2021 NJCAA National Championship. Earning a Scholarship to play at McKendree University outside of St. Louis. Coach Jarred has spent the last couple years working with and developing quarterbacks in Texas. His current athletes include: Fernando Mendoza (Indiana University), Quinn Ewers (Miami Dolphins), Josh Hoover (TCU), Drew Mestemaker (UNT), Chaston Ditta (East Carolina), Trey Lance (LA Chargers), Kane Archer (UCF), and more.",
+				"Coach Jarred is one of the most experienced and respected members of our program, both as a coach and a former athlete. He played quarterback at the College of DuPage, where he played a key role in leading the team to the 2021 NJCAA National Championship. His performance earned him a scholarship to continue playing quarterback at McKendree University, located just outside of St. Louis. In recent years, Coach Jarred has dedicated himself to the development of quarterbacks in Texas, working with a range of elite athletes. His current and former trainees include Fernando Mendoza (Indiana University), Quinn Ewers (Miami Dolphins), Josh Hoover (TCU), Drew Mestemaker (University of North Texas), Chaston Ditta (East Carolina University), Trey Lance (Los Angeles Chargers), Kane Archer (University of Central Florida), among others.",
 		},
 	],
 };
