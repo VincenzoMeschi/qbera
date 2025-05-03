@@ -42,7 +42,8 @@ export const aboutUsData: AboutUsProps = {
 				imagePositionOverride: [1, 1],
 			},
 			mainHeading: "Rise n' Grind",
-			subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			subText:
+				"Your success starts before the sun comes up. Join us Sunday @ 6:00am",
 		},
 		bottom: {
 			imageSettings: {
@@ -59,7 +60,7 @@ export const aboutUsData: AboutUsProps = {
 				url: "/schedule/chicago",
 			},
 			mainHeading: "Get Started",
-			subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			subText: "Invest in yourself today. Click below to get started.",
 		},
 	},
 };
@@ -86,7 +87,7 @@ export const testimonialData: TestimonialSectionProps = {
 	pageHeading: {
 		mainHeading: `What's The Secret?`,
 		subText:
-			"Our guys put in the work. We just provide the guidence and scenarios to maximize their effort - and it works. Don't believe us? Hear what our guys have to say.",
+			"Our athletes put in the hard work. We simply provide the guidance and scenarios that maximize their effort, and it delivers results. Don’t just take our word for it—hear directly from our athletes.",
 	},
 	testimonials: [
 		{
