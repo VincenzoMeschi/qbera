@@ -178,7 +178,7 @@ export const coachesData: CoachesSectionProps = {
 
 			mainHeading: "Jarred Park",
 			subText:
-				"Coach Jarred is one of the most experienced and respected members of our program, both as a coach and a former athlete. He played quarterback at the College of DuPage, where he played a key role in leading the team to the 2021 NJCAA National Championship. His performance earned him a scholarship to continue playing quarterback at McKendree University, located just outside of St. Louis. In recent years, Coach Jarred has dedicated himself to the development of quarterbacks in Texas, working with a range of elite athletes. His current and former trainees include Fernando Mendoza (Indiana University), Quinn Ewers (Miami Dolphins), Josh Hoover (TCU), Drew Mestemaker (University of North Texas), Chaston Ditta (East Carolina University), Trey Lance (Los Angeles Chargers), Kane Archer (University of Central Florida), among others.",
+				"Coach Jarred is one of the most experienced and respected members of our program, both as a coach and a former athlete. He played quarterback at the College of DuPage, where he played a key role in leading the team to the 2021 NJCAA National Championship. His performance earned him a scholarship to continue playing quarterback at McKendree University, located just outside of St. Louis. In recent years, Coach Jarred has dedicated himself to the development of quarterbacks in Texas, working with a range of elite athletes. His current and former trainees include Fernando Mendoza (Indiana University), Quinn Ewers (Miami Dolphins), Josh Hoover (TCU), Drew Mestemaker (University of North Texas), Chaston Ditta (East Carolina University), Kane Archer (University of Central Florida), among others.",
 		},
 	],
 };
