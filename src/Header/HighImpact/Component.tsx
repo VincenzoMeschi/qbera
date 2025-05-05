@@ -23,12 +23,12 @@ export const HighImpactHeader: React.FC<HighImpactHeaderProps> = ({
 	}
 
 	return (
-		<div className={cn("relative h-screen", className)}>
+		<div className={cn("relative h-screen z-40", className)}>
 			<CircularText
 				text={circleTextDesignContent as string}
 				onHover="slowDown"
 				spinDuration={20}
-				className="absolute sm:block hidden -bottom-15 right-10 z-50 overflow-visible"
+				className="absolute sm:block hidden -bottom-15 right-10 z-40 overflow-visible"
 			/>
 			<div className="flex w-full bg-transparent h-screen items-center justify-end absolute p-2 z-10">
 				<div className="relative w-full h-full bg-secondary-foreground rounded-[2.5rem] z-10 overflow-hidden">
