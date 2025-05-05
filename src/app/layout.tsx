@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Roboto, Anton } from "next/font/google";
 import "./globals.css";
 
+import PlausibleProvider from "next-plausible";
+
 const roboto = Roboto({
 	variable: "--font-roboto",
 	subsets: ["latin"],
@@ -26,10 +28,12 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body
-				className={`${roboto.variable} ${anton.variable} antialiased`}>
-				{children}
-			</body>
+			<PlausibleProvider domain="qb-era.com">
+				<body
+					className={`${roboto.variable} ${anton.variable} antialiased`}>
+					{children}
+				</body>
+			</PlausibleProvider>
 		</html>
 	);
 }
