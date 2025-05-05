@@ -31,8 +31,8 @@ export const HighImpactHeader: React.FC<HighImpactHeaderProps> = ({
 				className="absolute sm:block hidden -bottom-15 right-10 z-40 overflow-visible"
 			/>
 			<div className="flex w-full bg-transparent h-screen items-center justify-end absolute p-2 z-10">
-				<Nav />
 				<div className="relative w-full h-full bg-secondary-foreground rounded-[2.5rem] z-10 overflow-hidden">
+					<Nav />
 					<div>
 						<p className="absolute w-[30rem] text-secondary left-8 lg:bottom-6 lg:left-[26rem] z-30 text-shadow-lg lg:block hidden">
 							{subText}

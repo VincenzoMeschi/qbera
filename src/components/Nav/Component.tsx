@@ -30,7 +30,7 @@ export const Nav: React.FC = () => {
 	};
 
 	return (
-		<div className="absolute top-0 w-full z-40">
+		<div className="absolute top-0 w-full z-50">
 			<MainGrid className="pt-6 z-40">
 				<nav className="contents w-full text-secondary">
 					<Image
