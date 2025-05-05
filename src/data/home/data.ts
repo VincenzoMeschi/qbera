@@ -30,12 +30,12 @@ export const aboutUsData: AboutUsProps = {
 	leftSide: {
 		imageSettings: {
 			image: {
-				src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746418596/Coaching_bu90tv.jpg",
+				src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746420057/Reggie_macr0g.jpg",
 				width: 1920,
 				height: 1165,
 			},
-			alt: "Coach Rich Scangarello showing a group of quarterbacks drill tape in-between reps at QB Era",
-			imagePositionOverride: [0.7, 0.6],
+			alt: "Reggie Fleurima lining up ready to run a route at QB Era",
+			imagePositionOverride: [0.6, 0.6],
 		},
 		mainHeading: "Our Identity",
 		subText:
