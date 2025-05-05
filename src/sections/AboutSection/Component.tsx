@@ -68,7 +68,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({
 					<div className="col-span-4 sm:col-span-6 lg:col-span-8 pb-8">
 						<div className="flex flex-col justify-between w-full h-full z-20 gap-8">
 							<div className="flex flex-col gap-8">
-								<h2 className="uppercase text-primary text-6xl lg:text-7xl">
+								<h2 className="uppercase text-primary text-5xl lg:text-7xl">
 									{leftSide.mainHeading}
 								</h2>
 
