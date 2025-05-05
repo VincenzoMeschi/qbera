@@ -31,7 +31,7 @@ export const Nav: React.FC = () => {
 
 	return (
 		<div className="absolute top-0 w-full z-50">
-			<MainGrid className="pt-6 z-40">
+			<MainGrid className="pt-8 z-40 xl:px-10">
 				<nav className="contents w-full text-secondary">
 					<Image
 						src="/QB_Era_White.png"
