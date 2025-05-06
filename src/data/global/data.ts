@@ -14,8 +14,16 @@ export const footerData: FooterProps = {
 	top: {
 		firstThird: {
 			alt: "QB Era logo red variant",
-			companyInfo:
-				"Our mission is to develop and foster organic relationships with our athletes through our unique well-rounded training program. We want to put our athletes in a position to succeed, not just in football, but as a leader in life. We put high expectations on our athletes as we see them as extensions of us as a whole! We are family, to put it simply!",
+			downloadImage: {
+				apple: {
+					image: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746574928/Download_on_the_App_Store_RGB_blk.svg_zfgbfx.png",
+					url: "https://apps.apple.com/us/app/qb-era/id6745488226",
+				},
+				android: {
+					image: "",
+					url: "",
+				},
+			},
 		},
 		secondThird: {
 			firstLabel: "Quick Links",

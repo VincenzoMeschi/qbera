@@ -4,7 +4,16 @@ export type FooterProps = {
 	top: {
 		firstThird: {
 			alt: string;
-			companyInfo: string;
+			downloadImage: {
+				apple: {
+					image: string;
+					url: string;
+				};
+				android: {
+					image: string;
+					url: string;
+				};
+			};
 		};
 		secondThird: {
 			firstLabel: string;

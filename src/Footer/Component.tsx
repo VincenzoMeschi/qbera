@@ -13,7 +13,7 @@ export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 				<MainGrid>
 					<div className="contents">
 						<div className="col-span-4 sm:col-span-6 lg:col-span-4 py-16">
-							<div className="flex flex-col gap-3">
+							<div className="flex flex-col gap-8">
 								<Image
 									src={"/QB_Era_Red.png"}
 									alt={firstThird.alt}
@@ -21,9 +21,17 @@ export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 									width={500}
 									height={100}
 								/>
-								<p className="text-secondary text-xs w-[80%]">
-									{firstThird.companyInfo}
-								</p>
+								<a href={firstThird.downloadImage.apple.url}>
+									<Image
+										src={
+											firstThird.downloadImage.apple.image
+										}
+										alt="Download App on App Store"
+										className="w-36 lg:w-24"
+										width={315}
+										height={105}
+									/>
+								</a>
 							</div>
 						</div>
 						<div className="col-span-4 sm:col-span-6 lg:col-span-4 flex sm:py-16">
