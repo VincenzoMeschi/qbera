@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import { MainGrid } from "../MainGrid/Component";
+import Image from "next/image";
 
 export const ChicagoBooking: React.FC = () => {
 	const scheduleRef = useRef<HTMLDivElement>(null);
@@ -88,6 +89,18 @@ export const ChicagoBooking: React.FC = () => {
 				<div ref={singleRef} className={pricingClasses} />
 				<div ref={fiveRef} className={pricingClasses} />
 				<div ref={tenRef} className={pricingClasses} />
+
+				<div className="col-span-full flex items-center justify-center gap-20">
+					<a href="https://apps.apple.com/us/app/qb-era/id6745488226">
+						<Image
+							src="https://res.cloudinary.com/dbxthl3yh/image/upload/v1746574928/Download_on_the_App_Store_RGB_blk.svg_zfgbfx.png"
+							alt="Download on App Store"
+							width={305}
+							height={105}
+							className="col-span-2 sm:col-span-3 lg:col-span-6 w-36 lg:w-48"
+						/>
+					</a>
+				</div>
 
 				<div
 					ref={scheduleRef}
