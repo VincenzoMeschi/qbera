@@ -138,7 +138,9 @@ export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 			<div className="w-full h-full pb-2 text-sm flex items-center justify-center">
 				<p>
 					Proudly designed and developed by{" "}
-					<a href="https://youtube.com" className="underline">
+					<a
+						href="https://www.linkedin.com/in/vincenzo-meschi/"
+						className="underline">
 						Vincenzo Meschi
 					</a>
 				</p>
