@@ -8,8 +8,8 @@ import { SubscriptionForm } from "@/components/SubscriptionForm/Component";
 export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 	const { firstThird, secondThird, thirdThird } = top;
 	return (
-		<div className="w-full h-full">
-			<div className="mx-2 mb-4 bg-foreground rounded-[2.5rem]">
+		<div className="w-full h-full relative">
+			<div className="mx-2 mb-2 bg-foreground rounded-[2.5rem]">
 				<MainGrid>
 					<div className="contents">
 						<div className="col-span-4 sm:col-span-6 lg:col-span-4 py-16">
@@ -134,6 +134,14 @@ export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 						</div>
 					</div>
 				</MainGrid>
+			</div>
+			<div className="w-full h-full pb-2 text-sm flex items-center justify-center">
+				<p>
+					Proudly designed and developed by{" "}
+					<a href="https://youtube.com" className="underline">
+						Vincenzo Meschi
+					</a>
+				</p>
 			</div>
 		</div>
 	);
