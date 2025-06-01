@@ -40,38 +40,55 @@ export const locationData: LocationSectionProps = {
 				url: "/schedule/chicago",
 			},
 		},
+		// {
+		// 	imageSettings: {
+		// 		image: {
+		// 			src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745430175/Dallas_Texas_hvs1ry.jpg",
+		// 			height: 549,
+		// 			width: 2560,
+		// 		},
+		// 		alt: "Skyline of Dallas, Texas",
+		// 		imagePositionOverride: [1, 1],
+		// 	},
+		// 	mainHeading: "Dallas, TX",
+		// 	ctaButton: {
+		// 		icon: ArrowOutwardIcon,
+		// 		label: "Get Started",
+		// 		url: "/schedule/chicago",
+		// 	},
+		// },
+		// {
+		// 	imageSettings: {
+		// 		image: {
+		// 			src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745957748/austin-texas_umz2qg.jpg",
+		// 			height: 549,
+		// 			width: 2560,
+		// 		},
+		// 		alt: "Skyline of Austin, Texas",
+		// 		imagePositionOverride: [1, 1],
+		// 	},
+		// 	mainHeading: "Austin, TX",
+		// 	ctaButton: {
+		// 		icon: ArrowOutwardIcon,
+		// 		label: "Get Started",
+		// 		url: "/schedule/chicago",
+		// 	},
+		// },
 		{
 			imageSettings: {
 				image: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745430175/Dallas_Texas_hvs1ry.jpg",
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1748809536/phoenix_az_xfq6my.jpg",
 					height: 549,
 					width: 2560,
 				},
-				alt: "Skyline of Dallas, Texas",
+				alt: "Skyline of Phoenix, Arizona",
 				imagePositionOverride: [1, 1],
 			},
-			mainHeading: "Dallas, TX",
+			mainHeading: "Phoenix, AZ",
 			ctaButton: {
 				icon: ArrowOutwardIcon,
-				label: "Get Started",
-				url: "/schedule/chicago",
-			},
-		},
-		{
-			imageSettings: {
-				image: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745957748/austin-texas_umz2qg.jpg",
-					height: 549,
-					width: 2560,
-				},
-				alt: "Skyline of Austin, Texas",
-				imagePositionOverride: [1, 1],
-			},
-			mainHeading: "Austin, TX",
-			ctaButton: {
-				icon: ArrowOutwardIcon,
-				label: "Get Started",
-				url: "/schedule/chicago",
+				label: "Coming Soon",
+				url: "/locations",
 			},
 		},
 	],

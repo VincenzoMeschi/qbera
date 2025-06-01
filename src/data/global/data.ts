@@ -20,8 +20,8 @@ export const footerData: FooterProps = {
 					url: "https://apps.apple.com/us/app/qb-era/id6745488226",
 				},
 				android: {
-					image: "",
-					url: "",
+					image: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1748809820/Google_Play_Store_badge_EN.svg_bx9upb.png",
+					url: "https://play.google.com/store/apps/details?id=com.fitnessmobileapps.qberallc41844&pcampaignid=web_share&pli=1",
 				},
 			},
 		},
@@ -172,7 +172,6 @@ export const coachesData: CoachesSectionProps = {
 			subText:
 				"Kofi Hughes serves as our lead Wide Receivers Coach and is the CEO of Athletes They Fear, a nonprofit organization dedicated to developing youth both on and off the field. In partnership with QB-Era, Athletes They Fear supports over 100 current Division I athletes and hundreds of top youth and high school players across the region. Kofi played four years in the Big Ten Conference at Indiana University, where he was a three-year team captain at wide receiver. He concluded his collegiate career ranked eighth all-time in receiving yards and tenth in receptions in program history. Following college, Kofi spent time in the NFL with the Houston Texans, Washington Redskins, and Chicago Bears.",
 		},
-
 		{
 			imageSettings: {
 				image: {
@@ -187,6 +186,21 @@ export const coachesData: CoachesSectionProps = {
 			mainHeading: "Jarred Park",
 			subText:
 				"Coach Jarred is one of the most experienced and respected members of our program, both as a coach and a former athlete. He played quarterback at the College of DuPage, where he played a key role in leading the team to the 2021 NJCAA National Championship. His performance earned him a scholarship to continue playing quarterback at McKendree University, located just outside of St. Louis. In recent years, Coach Jarred has dedicated himself to the development of quarterbacks in Texas, working with a range of elite athletes. His current and former trainees include Fernando Mendoza (Indiana University), Quinn Ewers (Miami Dolphins), Josh Hoover (TCU), Drew Mestemaker (University of North Texas), Chaston Ditta (East Carolina University), Kane Archer (University of Central Florida), among others.",
+		},
+		{
+			imageSettings: {
+				image: {
+					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1748810889/Sean_Anderson_guld5f.jpg",
+					height: 2432,
+					width: 1920,
+				},
+				alt: "Coach Sean Anderson coaching a quarterback at a training session",
+				imagePositionOverride: [1, 1],
+			},
+
+			mainHeading: "Sean Anderson",
+			subText:
+				"Sean Anderson is the Offensive Coordinator and Quarterback Coach at perennial Illinois powerhouse Batavia High School, where he has helped guide the program to multiple state championship appearances and victories. At Batavia Sean has played a key role in the development of multiple All-State QBs.  Sean has nearly 15 years of experience coaching quarterbacks where he has worked with all levels of QBs from youth to NFL. A former University of Illinois quarterback, Sean began his collegiate career as a walk-on and earned a scholarship through hard work and dedication. He is passionate about mentoring and preparing the next generation of elite quarterback talent.",
 		},
 	],
 };

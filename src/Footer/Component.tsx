@@ -21,17 +21,38 @@ export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 									width={500}
 									height={100}
 								/>
-								<a href={firstThird.downloadImage.apple.url}>
-									<Image
-										src={
-											firstThird.downloadImage.apple.image
-										}
-										alt="Download App on App Store"
-										className="w-36 lg:w-24"
-										width={315}
-										height={105}
-									/>
-								</a>
+								<div className="flex gap-2 h-12 w-full">
+									<a
+										href={
+											firstThird.downloadImage.apple.url
+										}>
+										<Image
+											src={
+												firstThird.downloadImage.apple
+													.image
+											}
+											alt="Download App on App Store"
+											className="w-auto h-full"
+											width={315}
+											height={105}
+										/>
+									</a>
+									<a
+										href={
+											firstThird.downloadImage.android.url
+										}>
+										<Image
+											src={
+												firstThird.downloadImage.android
+													.image
+											}
+											alt="Download App on Google Play Store"
+											className="w-auto h-full"
+											width={315}
+											height={105}
+										/>
+									</a>
+								</div>
 							</div>
 						</div>
 						<div className="col-span-4 sm:col-span-6 lg:col-span-4 flex sm:py-16">
