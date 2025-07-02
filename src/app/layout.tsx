@@ -16,7 +16,7 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
-	title: "QB Era | Quarterback and Wide Receiver Training Academy",
+	title: "QB Era | Best Quarterback and Wide Receiver Training in Chicago",
 	description:
 		"Quarterback and Wide Receiver Training Academy based in Chicago, Illinois, and Dallas, Texas. Take your training to the next level. Welcome to the new era of quarterback training.",
 };

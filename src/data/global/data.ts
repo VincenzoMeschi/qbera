@@ -37,10 +37,6 @@ export const footerData: FooterProps = {
 					url: "/about-us",
 				},
 				{
-					label: "Coaches",
-					url: "/coaches",
-				},
-				{
 					label: "Training",
 					url: "/training",
 				},
