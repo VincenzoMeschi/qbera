@@ -24,7 +24,7 @@ export const CoachesSection: React.FC<CoachesSectionProps> = (coaches) => {
 									<h3 className="text-primary-foreground text-shadow-lg text-5xl z-2 transform absolute top-5 md:top-auto md:bottom-0 left-5 w-96 md:rotate-270 origin-top-left uppercase">
 										{coach.mainHeading}
 									</h3>
-									<p className="text-primary-foreground pr-6 md:w-3/4 z-2 pl-6 md:pl-0 md:pr-3 pb-10 opacity-0 transition-opacity ease-in-out">
+									<p className="text-primary-foreground pr-6 md:w-3/4 h-5/8 lg:h-auto z-2 pl-6 md:pl-0 md:pr-3 pb-10 opacity-0 transition-opacity ease-in-out overflow-y-scroll styleScroll">
 										{coach.subText}
 									</p>
 									<div className="hidden z-1 absolute h-full w-full bg-gradient-to-t from-black to-[#0000007a] opacity-100"></div>

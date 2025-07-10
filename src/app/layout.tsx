@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Anton } from "next/font/google";
 import "./globals.css";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 import PlausibleProvider from "next-plausible";
 
@@ -28,6 +29,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+			<GoogleTagManager gtmId="AW-17332557195" />
 			<PlausibleProvider domain="qb-era.com">
 				<body
 					className={`${roboto.variable} ${anton.variable} antialiased`}>
