@@ -39,7 +39,7 @@ export const aboutUsData: AboutUsProps = {
 		},
 		mainHeading: "Our Identity",
 		subText:
-			"Our training is built to develop more than just technical skill — it fosters the confidence, discipline, and mindset required to excel at the highest levels of the game. We’re not just shaping quarterbacks; we’re shaping the future of football.",
+			"Our training is built to develop more than just technical skill. We instill confidence, discipline, and mindset required to excel at the highest levels of the game. We’re not just shaping quarterbacks; we’re shaping the future of football.",
 	},
 	rightSide: {
 		top: {

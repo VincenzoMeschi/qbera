@@ -90,7 +90,7 @@ export const ChicagoBooking: React.FC = () => {
 				<div ref={fiveRef} className={pricingClasses} />
 				<div ref={tenRef} className={pricingClasses} />
 
-				<div className="col-span-full flex items-center justify-center gap-20">
+				<div className="col-span-full flex items-center justify-center gap-14">
 					<a href="https://apps.apple.com/us/app/qb-era/id6745488226">
 						<Image
 							src="https://res.cloudinary.com/dbxthl3yh/image/upload/v1746574928/Download_on_the_App_Store_RGB_blk.svg_zfgbfx.png"
@@ -100,7 +100,20 @@ export const ChicagoBooking: React.FC = () => {
 							className="col-span-2 sm:col-span-3 lg:col-span-6 w-36 lg:w-48"
 						/>
 					</a>
+					<a href="https://play.google.com/store/apps/details?id=com.fitnessmobileapps.qberallc41844&pcampaignid=web_share&pli=1">
+						<Image
+							src="https://res.cloudinary.com/dbxthl3yh/image/upload/v1748809820/Google_Play_Store_badge_EN.svg_bx9upb.png"
+							alt="Download on Google Play Store"
+							width={305}
+							height={105}
+							className="col-span-2 sm:col-span-3 lg:col-span-6 w-36 lg:w-48"
+						/>
+					</a>
 				</div>
+				{/* android: {
+					image: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1748809820/Google_Play_Store_badge_EN.svg_bx9upb.png",
+					url: "https://play.google.com/store/apps/details?id=com.fitnessmobileapps.qberallc41844&pcampaignid=web_share&pli=1",
+				}, */}
 
 				<div
 					ref={scheduleRef}

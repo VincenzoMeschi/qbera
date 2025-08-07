@@ -37,6 +37,10 @@ export const footerData: FooterProps = {
 					url: "/about-us",
 				},
 				{
+					label: "Shop",
+					url: "https://bethehoss.com/collections/qb-era",
+				},
+				{
 					label: "Training",
 					url: "/training",
 				},
@@ -171,7 +175,7 @@ export const coachesData: CoachesSectionProps = {
 		{
 			imageSettings: {
 				image: {
-					src: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1746070563/Jarred_Park_fwbiku.jpg",
+					src: "https://res.cloudinary.com/dazxax791/image/upload/v1754546611/Jarred_Park_1_hm1jpb.jpg",
 					height: 2432,
 					width: 1920,
 				},

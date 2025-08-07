@@ -17,6 +17,7 @@ export const Nav: React.FC = () => {
 		{ href: "/locations", label: "Locations" },
 		{ href: "/training", label: "Training" },
 		{ href: "/contact-us", label: "Contact" },
+		{ href: "https://bethehoss.com/collections/qb-era", label: "Shop" },
 	];
 
 	const openMenu = () => {
@@ -44,11 +45,17 @@ export const Nav: React.FC = () => {
 
 					{/* desktop links */}
 					<ul className="hidden sm:flex gap-12 w-full xl:col-start-9 lg:col-start-8 sm:col-start-3 justify-end col-span-full items-center uppercase pr-5">
-						{navItems.map(({ href, label }) => (
-							<li key={href}>
-								<Link href={href}>{label}</Link>
-							</li>
-						))}
+						{navItems.map(({ href, label }) =>
+							label === "Locations" || label === "Contact" ? (
+								<li className="hidden md:block" key={href}>
+									<Link href={href}>{label}</Link>
+								</li>
+							) : (
+								<li key={href}>
+									<Link href={href}>{label}</Link>
+								</li>
+							)
+						)}
 					</ul>
 
 					{/* mobile menu button */}
