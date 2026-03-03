@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 
 interface CircularTextProps {
-	text: string;
-	spinDuration?: number;
+	ext: string;
+	duration?: number;
 	onHover?: "slowDown" | "speedUp" | "pause" | "goBonkers";
 	className?: string;
 }
@@ -47,7 +47,7 @@ const CircularText: React.FC<CircularTextProps> = ({
 			scale: 1,
 			transition: getTransition(spinDuration, currentRotation),
 		});
-	}, [spinDuration, controls, onHover, text]);
+	}, [spinDuration, controls, onHover, text, currentRotation]);
 
 	const handleHoverStart = () => {
 		if (!onHover) return;
@@ -94,7 +94,7 @@ const CircularText: React.FC<CircularTextProps> = ({
 				break;
 			default:
 				break;
-		}
+			}
 	};
 
 	const handleHoverEnd = () => {
