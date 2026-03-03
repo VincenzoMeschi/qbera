@@ -37,7 +37,7 @@ export default function RootLayout({
 			dangerouslySetInnerHTML={{
 				__html: `
 			gtag('config', 'AW-17332557195/KbDaCJ3vpusbEIur58hA', {
-				'phone_conversion_number': '(630) 290-1120'
+				'phone_conversion_number': '(630)290-1120'
 			});
 			`,
 			}}
