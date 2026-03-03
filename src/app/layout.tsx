@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Roboto, Anton } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import PlausibleProvider from "next-plausible";
 
@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<GoogleTagManager gtmId="AW-17332557195" />
+			<GoogleAnalytics gaId="AW-17332557195" />
 			<Script
 			id="google-conversion"
 			strategy="afterInteractive"

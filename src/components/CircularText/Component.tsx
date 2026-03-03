@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 
 interface CircularTextProps {
-	ext: string;
-	duration?: number;
+	text: string;
+	spinDuration?: number;
 	onHover?: "slowDown" | "speedUp" | "pause" | "goBonkers";
 	className?: string;
 }
@@ -16,16 +16,16 @@ const getRotationTransition = (
 ) => ({
 	from: from,
 	to: from + 360,
-	ease: "linear",
+	ease: "linear" as const,
 	duration: duration,
-	type: "tween",
+	type: "tween" as const,
 	repeat: loop ? Infinity : 0,
 });
 
 const getTransition = (duration: number, from: number) => ({
 	rotate: getRotationTransition(duration, from),
 	scale: {
-		type: "spring",
+		type: "spring" as const,
 		damping: 20,
 		stiffness: 300,
 	},
@@ -47,7 +47,7 @@ const CircularText: React.FC<CircularTextProps> = ({
 			scale: 1,
 			transition: getTransition(spinDuration, currentRotation),
 		});
-	}, [spinDuration, controls, onHover, text, currentRotation]);
+	}, [spinDuration, controls, onHover, text, CircularText]);
 
 	const handleHoverStart = () => {
 		if (!onHover) return;
@@ -77,8 +77,8 @@ const CircularText: React.FC<CircularTextProps> = ({
 					rotate: currentRotation,
 					scale: 1,
 					transition: {
-						rotate: { type: "spring", damping: 20, stiffness: 300 },
-						scale: { type: "spring", damping: 20, stiffness: 300 },
+						rotate: { type: "spring" as const, damping: 20, stiffness: 300 },
+						scale: { type: "spring" as const, damping: 20, stiffness: 300 },
 					},
 				});
 				break;
@@ -94,7 +94,7 @@ const CircularText: React.FC<CircularTextProps> = ({
 				break;
 			default:
 				break;
-			}
+		}
 	};
 
 	const handleHoverEnd = () => {
