@@ -32,13 +32,14 @@ export default function RootLayout({
 		<html lang="en">
 			<GoogleTagManager gtmId="AW-17332557195" />
 			<Script
+			id="google-conversion"
 			strategy="afterInteractive"
 			dangerouslySetInnerHTML={{
 				__html: `
-				gtag('config', 'AW-17332557195/KbDaCJ3vpusbEIur58hA', {
-					'phone_conversion_number': '(630) 290-1120'
-				});
-				`,
+			gtag('config', 'AW-17332557195/KbDaCJ3vpusbEIur58hA', {
+				'phone_conversion_number': '(630) 290-1120'
+			});
+			`,
 			}}
 			/>
 			<PlausibleProvider domain="qb-era.com">
@@ -47,6 +48,6 @@ export default function RootLayout({
 					{children}
 				</body>
 			</PlausibleProvider>
-		</html>
-	);
+			</html>
+		);
 }
