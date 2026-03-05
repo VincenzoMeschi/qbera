@@ -25,6 +25,13 @@ export const Form: React.FC<FormProps> = ({
 		try {
 			await sendEmail(data);
 			reset();
+			if (typeof window.gtag === "function") {
+				window.gtag("event", "conversion", {
+					send_to: "AW-17332557195/OHgYCIPDpesbEIur58hA",
+					value: 1.0,
+					currency: "USD",
+				});
+			}
 			alert("Message sent");
 		} catch (e) {
 			console.error(e);
