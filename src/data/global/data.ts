@@ -38,7 +38,7 @@ export const footerData: FooterProps = {
 				},
 				{
 					label: "Shop",
-					url: "https://bethehoss.com/collections/qb-era",
+					url: "https://bethehoss.chipply.com/QBEra/?action=viewall",
 				},
 				{
 					label: "Training",

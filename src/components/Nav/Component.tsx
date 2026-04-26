@@ -17,7 +17,7 @@ export const Nav: React.FC = () => {
 		{ href: "/locations", label: "Locations" },
 		{ href: "/training", label: "Training" },
 		{ href: "/contact-us", label: "Contact" },
-		{ href: "https://bethehoss.com/collections/qb-era", label: "Shop" },
+		{ href: "https://bethehoss.chipply.com/QBEra/?action=viewall", label: "Shop" },
 	];
 
 	const openMenu = () => {
