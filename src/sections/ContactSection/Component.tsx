@@ -16,6 +16,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
 						className="w-full h-full object-cover"
 						src={imageSettings.image}
 						alt={imageSettings.alt}
+						sizes="(min-width: 1024px) 530px, 100vw"
 					/>
 				</div>
 				<Form

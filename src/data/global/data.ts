@@ -2,13 +2,13 @@ import { LogoSliderProps } from "@/components/LogoSlider/config";
 import { FooterProps } from "@/Footer/config";
 import { CoachesSectionProps } from "@/sections/CoachesSection/config";
 import {
-	Facebook,
-	X,
-	Instagram,
-	Phone,
-	Email,
-	LocationCity,
-} from "@mui/icons-material";
+	FacebookIcon as Facebook,
+	XIcon as X,
+	InstagramIcon as Instagram,
+	PhoneIcon as Phone,
+	EmailIcon as Email,
+	LocationCityIcon as LocationCity,
+} from "@/components/Icons/Component";
 
 export const footerData: FooterProps = {
 	top: {
@@ -125,6 +125,44 @@ export const logoSliderData: LogoSliderProps = {
 			image: "https://res.cloudinary.com/dbxthl3yh/image/upload/v1745428223/image_70_oqek38.png",
 			alt: "Univeristy of California Los Angeles Logo",
 		},
+		{
+			image: "/logos/oregon.png",
+			alt: "University of Oregon Logo",
+		},
+		{
+			image: "/logos/north-dakota.png",
+			alt: "University of North Dakota Logo",
+		},
+		{
+			image: "/logos/indiana-state.png",
+			alt: "Indiana State University Logo",
+		},
+		{
+			image: "/logos/st-thomas.png",
+			alt: "University of St. Thomas Logo",
+		},
+		{
+			image: "/logos/wheaton.png",
+			alt: "Wheaton College Logo",
+			// Wide wordmark nearly fills its slot; shift left for breathing room before the next logo.
+			className: "-ml-10 md:-ml-16",
+		},
+		{
+			image: "/logos/nebraska.png",
+			alt: "University of Nebraska Logo",
+		},
+		{
+			image: "/logos/indiana.png",
+			alt: "Indiana University Logo",
+		},
+		{
+			image: "/logos/wyoming.png",
+			alt: "University of Wyoming Logo",
+		},
+		{
+			image: "/logos/illinois.png",
+			alt: "University of Illinois Logo",
+		},
 	],
 };
 
@@ -185,7 +223,7 @@ export const coachesData: CoachesSectionProps = {
 
 			mainHeading: "Jarred Park",
 			subText:
-				"Coach Jarred is one of the most experienced and respected members of our program, both as a coach and a former athlete. He played quarterback at the College of DuPage, where he played a key role in leading the team to the 2021 NJCAA National Championship. His performance earned him a scholarship to continue playing quarterback at McKendree University, located just outside of St. Louis. In recent years, Coach Jarred has dedicated himself to the development of quarterbacks in Texas, working with a range of elite athletes. His current and former trainees include Fernando Mendoza (Indiana University), Quinn Ewers (Miami Dolphins), Josh Hoover (TCU), Drew Mestemaker (University of North Texas), Chaston Ditta (East Carolina University), Kane Archer (University of Central Florida), among others.",
+				"Coach Jarred is one of the most experienced and respected members of our program, both as a coach and a former athlete. He played quarterback at the College of DuPage, where he played a key role in leading the team to the 2021 NJCAA National Championship. His performance earned him a scholarship to continue playing quarterback at McKendree University, located just outside of St. Louis. In recent years, Coach Jarred has dedicated himself to the development of quarterbacks in Texas, working with a range of elite athletes. His current and former trainees include Fernando Mendoza (Las Vegas Raiders), Quinn Ewers (Jacksonville Jaguars), Josh Hoover (Indiana University), Drew Mestemaker (Oklahoma State University), Chaston Ditta (University of North Texas), Kane Archer (University of Utah), among others.",
 		},
 		{
 			imageSettings: {

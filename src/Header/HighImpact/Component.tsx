@@ -6,7 +6,7 @@ import { MainGrid } from "@/components/MainGrid/Component";
 import { Nav } from "@/components/Nav/Component";
 import CircularText from "@/components/CircularText/Component";
 
-import { cn } from "@/lib/utils";
+import { cn, fixedHeightSizes } from "@/lib/utils";
 import Image from "next/image";
 
 export const HighImpactHeader: React.FC<HighImpactHeaderProps> = ({
@@ -68,6 +68,8 @@ export const HighImpactHeader: React.FC<HighImpactHeaderProps> = ({
 								className="h-[150%] w-auto object-cover -mt-30 z-0 !overflow-visible"
 								src={imageSettings.image}
 								alt={imageSettings.alt}
+								priority
+								sizes={fixedHeightSizes(imageSettings.image, "150vh")}
 								style={{
 									objectPosition: getPositionFromHotspot(
 										imageSettings.imagePositionOverride

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { CTASectionProps } from "./config";
 import { MainGrid } from "@/components/MainGrid/Component";
 import Image from "next/image";
+import { fixedHeightSizes } from "@/lib/utils";
 
 export const CTASection: React.FC<CTASectionProps> = ({
 	imageSettings,
@@ -47,6 +48,7 @@ export const CTASection: React.FC<CTASectionProps> = ({
 					<Image
 						src={imageSettings.image}
 						alt={imageSettings.alt}
+							sizes={fixedHeightSizes(imageSettings.image, "24rem")}
 						className="h-96 w-auto mask-linear-270 mask-linear-from-80% mask-linear-to-100% absolute right-0 z-0 overflow-hidden object-cover "
 						style={{
 							objectPosition: getPositionFromHotspot(

@@ -1,4 +1,4 @@
-import { SvgIconComponent } from "@mui/icons-material";
+import { IconComponent } from "@/components/Icons/Component";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import React from "react";
 
@@ -15,7 +15,7 @@ export type AboutUsProps = (
 				subText: string;
 				ctaButton?: {
 					label: string;
-					icon: SvgIconComponent;
+					icon: IconComponent;
 					url: string;
 				};
 			};
@@ -38,7 +38,7 @@ export type AboutUsProps = (
 					mainHeading: string;
 					subText: string;
 					ctaButton: {
-						icon: SvgIconComponent;
+						icon: IconComponent;
 						url: URL | string;
 					};
 				};
@@ -51,7 +51,7 @@ export type AboutUsProps = (
 				subText: string;
 				ctaButton?: {
 					label: string;
-					icon: SvgIconComponent;
+					icon: IconComponent;
 					url: string;
 				};
 			};
@@ -74,7 +74,7 @@ export type AboutUsProps = (
 					mainHeading: string;
 					subText: string;
 					ctaButton: {
-						icon: SvgIconComponent;
+						icon: IconComponent;
 						url: URL | string;
 					};
 				};

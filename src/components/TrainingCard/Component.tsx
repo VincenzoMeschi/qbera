@@ -19,6 +19,7 @@ export const TrainingCard: React.FC<TrainingCardProps> = ({
 				<Image
 					src={imageSettings.image}
 					alt={imageSettings.alt}
+					sizes="(min-width: 1024px) 530px, 100vw"
 					className="w-full h-full object-cover"
 				/>
 			</div>

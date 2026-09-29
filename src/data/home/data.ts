@@ -1,6 +1,6 @@
 import { HighImpactHeaderProps } from "@/Header/HighImpact/config";
 import { AboutUsProps } from "@/sections/AboutSection/config";
-import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import { ArrowOutwardIcon } from "@/components/Icons/Component";
 import { TestimonialSectionProps } from "@/sections/TestimonialSection/config";
 import { CTASectionProps } from "@/sections/CTASection/config";
 

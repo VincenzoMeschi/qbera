@@ -1,4 +1,4 @@
-import { SvgIconComponent } from "@mui/icons-material";
+import { IconComponent } from "@/components/Icons/Component";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 export type TrainingCardProps = {
@@ -14,7 +14,7 @@ export type TrainingCardProps = {
 		description: string;
 		ctaButton: {
 			label: string;
-			icon: SvgIconComponent;
+			icon: IconComponent;
 			url: URL | string;
 		};
 	};

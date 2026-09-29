@@ -1,4 +1,4 @@
-import { SvgIconComponent } from "@mui/icons-material";
+import { IconComponent } from "@/components/Icons/Component";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 export type RightColumnAboutProps = {
@@ -20,7 +20,7 @@ export type RightColumnAboutProps = {
 		mainHeading: string;
 		subText: string;
 		ctaButton: {
-			icon: SvgIconComponent;
+			icon: IconComponent;
 			url: URL | string;
 		};
 	};

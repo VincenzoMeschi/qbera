@@ -7,6 +7,7 @@ import { LogoSliderProps } from "@/components/LogoSlider/config";
 import Slider from "react-infinite-logo-slider";
 import Image from "next/image";
 import { MainGrid } from "../MainGrid/Component";
+import { cn } from "@/lib/utils";
 
 export const LogoSlider: React.FC<LogoSliderProps> = ({ logos }) => {
 	return (
@@ -27,7 +28,11 @@ export const LogoSlider: React.FC<LogoSliderProps> = ({ logos }) => {
 										alt={logo.alt}
 										width={500}
 										height={500}
-										className="w-auto h-15 overflow-clip md:h-20"
+										sizes="256px"
+										className={cn(
+										"w-auto h-15 overflow-clip md:h-20",
+										logo.className
+									)}
 									/>
 								</Slider.Slide>
 							);

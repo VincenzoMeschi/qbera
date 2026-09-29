@@ -24,6 +24,7 @@ export const RightColumnAbout: React.FC<RightColumnAboutProps> = (props) => {
 					className="h-full w-full object-cover"
 					src={top.imageSettings.image}
 					alt={top.imageSettings.alt}
+						sizes="(min-width: 1024px) 420px, (min-width: 768px) 50vw, 100vw"
 					style={{
 						objectPosition: getPositionFromHotspot(
 							top.imageSettings.imagePositionOverride
@@ -66,6 +67,7 @@ export const RightColumnAbout: React.FC<RightColumnAboutProps> = (props) => {
 					className="h-full w-full object-cover"
 					src={bottom.imageSettings.image}
 					alt={bottom.imageSettings.alt}
+						sizes="(min-width: 1024px) 420px, (min-width: 768px) 50vw, 100vw"
 					style={{
 						objectPosition: getPositionFromHotspot(
 							bottom.imageSettings.imagePositionOverride

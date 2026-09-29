@@ -43,12 +43,6 @@ export const ChicagoBooking: React.FC = () => {
 			hc.dataset.hcOpenModal = "modal-iframe";
 			hc.innerText = text;
 			container.appendChild(hc);
-
-			const sc = document.createElement("script");
-			sc.src =
-				"https://widgets.mindbodyonline.com/javascripts/healcode.js";
-			sc.async = true;
-			container.appendChild(sc);
 		};
 
 		if (singleRef.current) {
@@ -75,6 +69,15 @@ export const ChicagoBooking: React.FC = () => {
 				"https://cart.mindbodyonline.com/sites/126307/cart/add_service?mbo_item_id=100008"
 			);
 		}
+
+		// Load healcode.js once, after all pricing links exist, so it can
+		// wire up every link in a single pass (previously loaded 3×).
+		document.getElementById("healcode-js")?.remove();
+		const sc = document.createElement("script");
+		sc.id = "healcode-js";
+		sc.src = "https://widgets.mindbodyonline.com/javascripts/healcode.js";
+		sc.async = true;
+		document.body.appendChild(sc);
 	}, []);
 
 	const pricingClasses =
@@ -98,6 +101,7 @@ export const ChicagoBooking: React.FC = () => {
 							width={305}
 							height={105}
 							className="col-span-2 sm:col-span-3 lg:col-span-6 w-36 lg:w-48"
+							sizes="192px"
 						/>
 					</a>
 					<a href="https://play.google.com/store/apps/details?id=com.fitnessmobileapps.qberallc41844&pcampaignid=web_share&pli=1">
@@ -107,6 +111,7 @@ export const ChicagoBooking: React.FC = () => {
 							width={305}
 							height={105}
 							className="col-span-2 sm:col-span-3 lg:col-span-6 w-36 lg:w-48"
+							sizes="192px"
 						/>
 					</a>
 				</div>

@@ -55,6 +55,7 @@ export const AboutUs: React.FC<AboutUsProps> = ({
 								className="h-[35rem] w-full object-cover"
 								src={leftSide.imageSettings.image}
 								alt={leftSide.imageSettings.alt}
+								sizes="(min-width: 1024px) 860px, 100vw"
 								style={{
 									objectPosition: getPositionFromHotspot(
 										leftSide.imageSettings

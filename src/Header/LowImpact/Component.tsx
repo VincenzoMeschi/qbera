@@ -3,7 +3,7 @@ import { LowImpactHeaderProps } from "./config";
 import { Nav } from "@/components/Nav/Component";
 import { MainGrid } from "@/components/MainGrid/Component";
 import Image from "next/image";
-import { cn } from "@/lib/utils";
+import { cn, fixedHeightSizes } from "@/lib/utils";
 
 export const LowImpactHeader: React.FC<LowImpactHeaderProps> = (props) => {
 	function getPositionFromHotspot(hotspot?: [number, number]) {
@@ -33,6 +33,8 @@ export const LowImpactHeader: React.FC<LowImpactHeaderProps> = (props) => {
 							<Image
 								src={imageSettings.image}
 								alt={imageSettings.alt}
+								priority
+								sizes={fixedHeightSizes(imageSettings.image, "29rem")}
 								className={`
     h-full w-auto object-cover object-right
     [mask-image:linear-gradient(to_right,transparent_0%,black_10%,black_90%,transparent_100%)]

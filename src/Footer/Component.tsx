@@ -18,6 +18,7 @@ export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 									src={"/QB_Era_Red.png"}
 									alt={firstThird.alt}
 									className="w-48"
+										sizes="192px"
 									width={500}
 									height={100}
 								/>
@@ -33,6 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 											}
 											alt="Download App on App Store"
 											className="w-auto h-full"
+												sizes="150px"
 											width={315}
 											height={105}
 										/>
@@ -48,6 +50,7 @@ export const Footer: React.FC<FooterProps> = ({ top, bottom }) => {
 											}
 											alt="Download App on Google Play Store"
 											className="w-auto h-full"
+												sizes="150px"
 											width={315}
 											height={105}
 										/>

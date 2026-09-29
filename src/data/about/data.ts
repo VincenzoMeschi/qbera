@@ -3,7 +3,7 @@ import { AboutUsProps } from "@/sections/AboutSection/config";
 import { CTASectionProps } from "@/sections/CTASection/config";
 import { GiantCTASectionProps } from "@/sections/GiantCTASection/config";
 import { TestimonialSectionProps } from "@/sections/TestimonialSection/config";
-import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import { ArrowOutwardIcon } from "@/components/Icons/Component";
 
 export const heroData: LowImpactHeaderProps = {
 	imageSettings: {

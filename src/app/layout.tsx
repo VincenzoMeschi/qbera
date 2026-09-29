@@ -29,7 +29,9 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		// suppressHydrationWarning: browser extensions (e.g. Quip-to-Chorus) inject
+		// attributes on <html> before hydration. Only affects this element's attributes.
+		<html lang="en" suppressHydrationWarning>
 			<GoogleAnalytics gaId="AW-17332557195" />
 			<Script
 			id="google-conversion"

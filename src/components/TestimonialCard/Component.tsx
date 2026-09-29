@@ -3,7 +3,7 @@ import { TestimonialCardProps } from "./config";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-import { FormatQuote } from "@mui/icons-material";
+import { FormatQuoteIcon as FormatQuote } from "@/components/Icons/Component";
 
 export const TestimonialCard: React.FC<TestimonialCardProps> = (props) => {
 	const {
@@ -37,6 +37,7 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = (props) => {
 							<Image
 								src={logoSettings.logo}
 								alt={logoSettings.alt}
+									sizes="32px"
 								className="h-8 w-auto z-10"
 								style={{
 									objectPosition: getPositionFromHotspot(
@@ -48,6 +49,7 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = (props) => {
 						<Image
 							src={imageSettings.image}
 							alt={imageSettings.alt}
+								sizes="(min-width: 1024px) 380px, 100vw"
 							className="object-cover w-full h-auto rounded-[2.5rem]"
 							style={{
 								objectPosition: getPositionFromHotspot(

@@ -27,6 +27,7 @@ export const GiantCTASection: React.FC<GiantCTASectionProps> = ({
 					<Image
 						src={imageSettings.image}
 						alt={imageSettings.alt}
+							sizes="(min-width: 1300px) 1300px, 100vw"
 						className="absolute object-cover w-full h-full"
 					/>
 				</div>

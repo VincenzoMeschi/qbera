@@ -30,6 +30,7 @@ export const TexasBooking: React.FC = () => {
 							width={305}
 							height={105}
 							className="col-span-2 sm:col-span-3 lg:col-span-6 w-36 lg:w-48"
+							sizes="192px"
 						/>
 					</a>
 				</div>

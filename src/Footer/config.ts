@@ -1,4 +1,4 @@
-import { SvgIconComponent } from "@mui/icons-material";
+import { IconComponent } from "@/components/Icons/Component";
 
 export type FooterProps = {
 	top: {
@@ -21,15 +21,15 @@ export type FooterProps = {
 			secondLabel: string;
 			contactInfo: {
 				phone: {
-					icon: SvgIconComponent;
+					icon: IconComponent;
 					phoneNumber: string;
 				};
 				email: {
-					icon: SvgIconComponent;
+					icon: IconComponent;
 					emailAddress: string;
 				};
 				address: {
-					icon: SvgIconComponent;
+					icon: IconComponent;
 					physicalAddress: string;
 				};
 			};
@@ -43,7 +43,7 @@ export type FooterProps = {
 	bottom: {
 		copyright: string;
 		socials: {
-			logo: SvgIconComponent;
+			logo: IconComponent;
 			url: string;
 		}[];
 	};

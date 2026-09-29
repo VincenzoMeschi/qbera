@@ -31,6 +31,7 @@ export const CoachesSection: React.FC<CoachesSectionProps> = (coaches) => {
 									<Image
 										src={coach.imageSettings.image}
 										alt={coach.imageSettings.alt}
+										sizes="(min-width: 1300px) 440px, (min-width: 768px) 45vw, 100vw"
 										className="absolute h-full object-cover overflow-visible w-full object-top top-0 sm:top-0 z-0"
 									/>
 								</label>

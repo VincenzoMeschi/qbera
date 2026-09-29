@@ -1,7 +1,7 @@
 import { LowImpactHeaderProps } from "@/Header/LowImpact/config";
 import { ContactSectionProps } from "@/sections/ContactSection/config";
 import { CTASectionProps } from "@/sections/CTASection/config";
-import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import { ArrowOutwardIcon } from "@/components/Icons/Component";
 
 export const heroData: LowImpactHeaderProps = {
 	imageSettings: {

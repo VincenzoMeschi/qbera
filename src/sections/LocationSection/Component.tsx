@@ -43,6 +43,7 @@ export const LocationSection: React.FC<LocationSectionProps> = ({
 							<Image
 								src={location.imageSettings.image}
 								alt={location.imageSettings.alt}
+									sizes="(min-width: 1300px) 1300px, 100vw"
 								className="object-cover object-center absolute top-0 left-0 w-full h-full z-0"
 							/>
 						</div>

@@ -1,4 +1,3 @@
-"use client";
 import { Footer } from "@/Footer/Component";
 import { LowImpactHeader } from "@/Header/LowImpact/Component";
 import { LogoSlider } from "@/components/LogoSlider/Component";

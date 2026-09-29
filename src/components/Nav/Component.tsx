@@ -2,7 +2,10 @@
 
 import React, { useState } from "react";
 import { MainGrid } from "../MainGrid/Component";
-import { Menu, Close } from "@mui/icons-material";
+import {
+	MenuIcon as Menu,
+	CloseIcon as Close,
+} from "@/components/Icons/Component";
 import Image from "next/image";
 import Link from "next/link";
 import clsx from "clsx";
